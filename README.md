@@ -2,7 +2,7 @@
 
 > A curated, auto-updating collection of security, AI, and development tools. Updated weekly.
 
-**675** tools across **6** categories • Last updated: 2026-03-22
+**746** tools across **6** categories • Last updated: 2026-03-22
 
 🌐 **Browse online**: [blacktemple.net/vault](https://blacktemple.net/vault)
 
@@ -25,12 +25,19 @@
 | [awesome-pentest](https://github.com/enaqx/awesome-pentest) | ⭐ 25.6k | — | Comprehensive penetration testing tools and resources collection |
 | [beef](https://github.com/beefproject/beef) | ⭐ 10.8k | JavaScript | Browser exploitation framework for testing web application security vulnerabilities |
 | [PoC-in-GitHub](https://github.com/nomi-sec/PoC-in-GitHub) | ⭐ 7.6k | — | Automated collection of proof-of-concept exploits and CVE research from GitHub |
+| [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool) | ⭐ 6.8k | Python | RSA attack tool for CTF challenges and cryptographic exploitation |
 | [linux-exploit-suggester](https://github.com/The-Z-Labs/linux-exploit-suggester) | ⭐ 6.4k | Shell | Linux privilege escalation auditing tool that suggests applicable kernel exploits |
 | [reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator) | ⭐ 3.9k | JavaScript | Web-based reverse shell generator with multiple payload types for pentesting and CTFs |
+| [SSRFmap](https://github.com/swisskyrepo/SSRFmap) | ⭐ 3.5k | Python | Automatic SSRF fuzzer and exploitation tool for pentesting |
 | [pypykatz](https://github.com/skelsec/pypykatz) | ⭐ 3.3k | Python | Pure Python implementation of Mimikatz for credential extraction |
+| [SUDO_KILLER](https://github.com/TH3xACE/SUDO_KILLER) | ⭐ 2.4k | Shell | Sudo privilege escalation exploitation tool for pentesting |
+| [one_gadget](https://github.com/david942j/one_gadget) | ⭐ 2.3k | Ruby | Tool for finding one gadget RCE exploits in libc libraries |
 | [metasploit-payloads](https://github.com/rapid7/metasploit-payloads) | ⭐ 2.0k | C | Unified repository for Metasploit Framework payloads and exploits |
 | [windows-privesc-check](https://github.com/pentestmonkey/windows-privesc-check) | ⭐ 1.5k | Python | Windows privilege escalation checker identifying common attack vectors |
 | [bypass-mdm](https://github.com/assafdori/bypass-mdm) | ⭐ 1.4k | Shell | Tool for bypassing macOS Mobile Device Management (MDM) setup restrictions |
+| [jok3r](https://github.com/koutto/jok3r) | ⭐ 1.1k | HTML | Network and web pentest automation framework with vulnerability exploitation |
+| [Aggressor](https://github.com/k8gege/Aggressor) | ⭐ 1.1k | — | Cobalt Strike extension with large network penetration scanning capabilities |
+| [pyhtools](https://github.com/dmdhrumilmistry/pyhtools) | ⭐ 624 | Python | Comprehensive Python hacking library with network and malware tools |
 | [pupy](https://github.com/AlessandroZ/pupy) | ⭐ 90 | Python | Cross-platform RAT with in-memory execution and low footprint capabilities |
 
 ### Network Attacks
@@ -46,6 +53,7 @@
 | [hping](https://github.com/antirez/hping) | ⭐ 1.7k | C | Network tool for packet crafting, firewall testing, and port scanning |
 | [BTLE](https://github.com/JiaoXianjun/BTLE) | ⭐ 876 | Jupyter Notebook | BLE packet sniffer/transmitter for wireless security testing and protocol analysis |
 | [gattacker](https://github.com/securing/gattacker) | ⭐ 815 | JavaScript | Bluetooth Low Energy security testing tool with MITM attack capabilities |
+| [pentmenu](https://github.com/GinjaChris/pentmenu) | ⭐ 528 | Shell | Bash script for network reconnaissance and DoS attacks |
 
 ### Password & Credential Tools
 
@@ -75,41 +83,67 @@
 | [gobuster](https://github.com/OJ/gobuster) | ⭐ 13.5k | Go | Fast directory/file, DNS and VHost enumeration tool for discovering hidden resources |
 | [subfinder](https://github.com/projectdiscovery/subfinder) | ⭐ 13.3k | Go | Fast passive subdomain enumeration for reconnaissance and bug bounties |
 | [nmap](https://github.com/nmap/nmap) | ⭐ 12.6k | C | Essential network discovery and port scanning tool for reconnaissance activities |
+| [Osintgram](https://github.com/Datalux/Osintgram) | ⭐ 12.5k | Python | Instagram OSINT tool with interactive shell for account analysis |
 | [awesome-hacker-search-engines](https://github.com/edoardottt/awesome-hacker-search-engines) | ⭐ 10.3k | Shell | Search engines for penetration testing and OSINT operations |
 | [httpx](https://github.com/projectdiscovery/httpx) | ⭐ 9.7k | Go | Multi-purpose HTTP toolkit for probing and SSL certificate analysis |
 | [Sn1per](https://github.com/1N3/Sn1per) | ⭐ 9.6k | Shell | Comprehensive attack surface management platform with OSINT and pentesting tools |
 | [bbot](https://github.com/blacklanternsecurity/bbot) | ⭐ 9.5k | Python | Recursive internet scanner for attack surface management and reconnaissance |
+| [GhostTrack](https://github.com/HunxByts/GhostTrack) | ⭐ 8.2k | Python | Mobile number and location tracking tool for OSINT gathering |
+| [osint_stuff_tool_collection](https://github.com/cipher387/osint_stuff_tool_collection) | ⭐ 7.7k | HTML | Curated collection of hundreds of online OSINT tools |
 | [reconftw](https://github.com/six2dez/reconftw) | ⭐ 7.4k | Shell | Automated reconnaissance tool that runs multiple security scanners on target domains |
 | [osmedeus](https://github.com/j3ssie/osmedeus) | ⭐ 6.2k | Go | Modern orchestration engine combining AI workflows for security testing |
+| [blackbird](https://github.com/p1ngul1n0/blackbird) | ⭐ 5.9k | Python | Social media account discovery by username and email |
 | [naabu](https://github.com/projectdiscovery/naabu) | ⭐ 5.8k | Go | Fast Go-based port scanner for attack surface discovery in pentests |
+| [mosint](https://github.com/alpkeskin/mosint) | ⭐ 5.8k | Go | Automated email OSINT tool with data breach hunting capabilities |
 | [can-i-take-over-xyz](https://github.com/EdOverflow/can-i-take-over-xyz) | ⭐ 5.6k | Python | Comprehensive list of services vulnerable to subdomain takeover attacks |
 | [hakrawler](https://github.com/hakluke/hakrawler) | ⭐ 5.0k | Go | Fast web crawler for discovering endpoints and assets in web applications |
+| [h8mail](https://github.com/khast3x/h8mail) | ⭐ 4.9k | Python | Email breach hunting with premium service integration support |
+| [robin](https://github.com/apurvsinghgautam/robin) | ⭐ 4.5k | Python | AI-powered dark web investigation and OSINT tool |
 | [LinkFinder](https://github.com/GerbenJavado/LinkFinder) | ⭐ 4.3k | Python | JavaScript endpoint discovery tool for web application reconnaissance |
 | [ivre](https://github.com/ivre/ivre) | ⭐ 4.0k | Python | Self-hosted network recon framework - alternative to Shodan/ZoomEye with Nmap/Masscan |
+| [TorBot](https://github.com/DedSecInside/TorBot) | ⭐ 3.9k | Python | Dark web crawler and OSINT tool for Tor network investigation |
+| [linux-smart-enumeration](https://github.com/diego-treitos/linux-smart-enumeration) | ⭐ 3.9k | Shell | Linux enumeration tool for pentesting and CTF privilege escalation |
+| [toutatis](https://github.com/megadose/toutatis) | ⭐ 3.8k | Python | Instagram account information extraction tool for OSINT |
 | [PrivescCheck](https://github.com/itm4n/PrivescCheck) | ⭐ 3.8k | PowerShell | PowerShell privilege escalation enumeration script specifically for Windows systems |
+| [Findomain](https://github.com/Findomain/Findomain) | ⭐ 3.7k | Rust | Fast subdomain discovery with port scanning and monitoring features |
 | [sdrangel](https://github.com/f4exb/sdrangel) | ⭐ 3.7k | C++ | Feature-rich SDR software for RF reception and transmission across multiple platforms |
 | [gqrx](https://github.com/gqrx-sdr/gqrx) | ⭐ 3.6k | C++ | GUI SDR receiver for RF signal analysis and monitoring |
 | [assetfinder](https://github.com/tomnomnom/assetfinder) | ⭐ 3.5k | Go | Simple tool for finding domains and subdomains related to a target domain |
+| [OSINT](https://github.com/sinwindie/OSINT) | ⭐ 3.4k | Python | Collection of OSINT tools and methodologies for intelligence gathering |
 | [cariddi](https://github.com/edoardottt/cariddi) | ⭐ 3.3k | Go | Domain crawler for endpoint discovery, secrets, and API key detection |
+| [Mr.Holmes](https://github.com/Lucksi/Mr.Holmes) | ⭐ 3.1k | Python | Comprehensive OSINT framework with multiple information gathering modules |
 | [httprobe](https://github.com/tomnomnom/httprobe) | ⭐ 3.1k | Go | Probe domains for working HTTP/HTTPS servers during reconnaissance |
 | [uncover](https://github.com/projectdiscovery/uncover) | ⭐ 2.8k | Go | Multi-engine search tool for discovering exposed hosts across the internet |
 | [Snaffler](https://github.com/SnaffCon/Snaffler) | ⭐ 2.8k | C# | File discovery tool for penetration testers to find sensitive data and credentials |
 | [dnsx](https://github.com/projectdiscovery/dnsx) | ⭐ 2.7k | Go | Fast DNS toolkit for enumeration and resolution with wildcard filtering |
+| [email2phonenumber](https://github.com/martinvigo/email2phonenumber) | ⭐ 2.6k | Python | Phone number discovery through email address OSINT techniques |
 | [waymore](https://github.com/xnl-h4ck3r/waymore) | ⭐ 2.6k | Python | Enhanced web archive data collection from Wayback Machine and other sources |
+| [pwnedOrNot](https://github.com/thewhiteh4t/pwnedOrNot) | ⭐ 2.5k | Python | Email breach checking using HaveIBeenPwned API integration |
+| [nexfil](https://github.com/thewhiteh4t/nexfil) | ⭐ 2.5k | Python | Fast username enumeration across multiple social platforms |
 | [cloudfox](https://github.com/BishopFox/cloudfox) | ⭐ 2.3k | Go | Automated situational awareness tool for cloud penetration testing |
+| [Awesome-OSINT-For-Everything](https://github.com/Astrosp/Awesome-OSINT-For-Everything) | ⭐ 2.3k | Shell | Curated collection of OSINT tools for information gathering and recon |
 | [smbmap](https://github.com/ShawnDEvans/smbmap) | ⭐ 2.0k | Python | SMB enumeration tool for network reconnaissance and share discovery |
 | [octosuite](https://github.com/bellingcat/octosuite) | ⭐ 1.9k | Python | Terminal toolkit for analyzing GitHub data and conducting OSINT investigations |
 | [gitjacker](https://github.com/liamg/gitjacker) | ⭐ 1.6k | Go | Extracts git repositories from misconfigured websites to find exposed source code |
 | [hakrevdns](https://github.com/hakluke/hakrevdns) | ⭐ 1.6k | Go | Fast tool for performing bulk reverse DNS lookups during reconnaissance |
+| [enum4linux-ng](https://github.com/cddmp/enum4linux-ng) | ⭐ 1.6k | Python | Next-gen Windows/Samba enumeration tool for CTF and pentesting |
 | [xnLinkFinder](https://github.com/xnl-h4ck3r/xnLinkFinder) | ⭐ 1.5k | Python | Discovers endpoints, parameters, and secrets from web applications for recon |
 | [SharpHound](https://github.com/SpecterOps/SharpHound) | ⭐ 1.2k | C# | C# data collector for BloodHound Active Directory attack path analysis |
+| [qscan](https://github.com/qi4L/qscan) | ⭐ 1.2k | Go | Lightning-fast internal network scanner for reconnaissance activities |
+| [goscan](https://github.com/marco-lancini/goscan) | ⭐ 1.0k | Go | Interactive network scanner built with Go for pentesting activities |
 | [hakoriginfinder](https://github.com/hakluke/hakoriginfinder) | ⭐ 987 | Go | Discovers origin hosts behind reverse proxies to bypass cloud WAFs |
 | [skanuvaty](https://github.com/Esc4iCEscEsc/skanuvaty) | ⭐ 923 | Rust | High-performance DNS/network/port scanner with subdomain enumeration capabilities |
+| [goscan](https://github.com/timest/goscan) | ⭐ 798 | Go | Efficient IPv4 network scanner for discovering active devices on LANs |
 | [tlosint-live](https://github.com/tracelabs/tlosint-live) | ⭐ 794 | HTML | OSINT-focused Linux distribution based on Kali for open source intelligence gathering |
 | [rtl-sdr-scanner-cpp](https://github.com/shajen/rtl-sdr-scanner-cpp) | ⭐ 760 | C++ | SDR scanner for RF reconnaissance and signal analysis |
 | [dnsvalidator](https://github.com/vortexau/dnsvalidator) | ⭐ 730 | Python | Maintains and validates list of reliable IPv4 DNS servers for reconnaissance |
+| [evilscan](https://github.com/eviltik/evilscan) | ⭐ 545 | JavaScript | Simple NodeJS network scanner for port scanning and reconnaissance |
 | [CloudScraper](https://github.com/jordanpotti/CloudScraper) | ⭐ 534 | Python | Cloud storage enumeration tool for S3 buckets, Azure blobs, and DigitalOcean |
 | [toolkit](https://github.com/bellingcat/toolkit) | ⭐ 499 | JavaScript | OSINT toolkit from Bellingcat for open source intelligence investigations |
+| [MMLanScan](https://github.com/mavris/MMLanScan) | ⭐ 496 | Objective-C | iOS library for LAN network scanning and device discovery |
+| [xmap](https://github.com/idealeer/xmap) | ⭐ 479 | C | Fast IPv4/IPv6 network scanner for Internet-wide research scanning |
+| [webscan](https://github.com/samyk/webscan) | ⭐ 471 | JavaScript | Browser-based network scanner with local IP detection capabilities |
+| [PowerShell_IPv4NetworkScanner](https://github.com/BornToBeRoot/PowerShell_IPv4NetworkScanner) | ⭐ 431 | PowerShell | Asynchronous IPv4 network scanner written in PowerShell |
 | [back-me-up](https://github.com/Dheerajmadhukar/back-me-up) | ⭐ 229 | Shell | Scans wayback data for sensitive data leaks using regex patterns |
 | [SIGpi](https://github.com/joecupano/SIGpi) | ⭐ 228 | Shell | SIGINT toolkit for radio frequency analysis and amateur radio operations |
 | [safe-harbour](https://github.com/trickest/safe-harbour) | ⭐ 56 | — | Collection of security.txt files from popular domains for responsible disclosure |
@@ -124,6 +158,7 @@
 | [caldera](https://github.com/mitre/caldera) | ⭐ 6.8k | Python | MITRE's automated adversary emulation platform for red team operations |
 | [Empire](https://github.com/BC-SECURITY/Empire) | ⭐ 5.1k | PowerShell | Post-exploitation PowerShell framework for red team and penetration testing |
 | [Mythic](https://github.com/its-a-feature/Mythic) | ⭐ 4.4k | JavaScript | Multi-platform collaborative red teaming framework for advanced operations |
+| [Stowaway](https://github.com/ph4ntonn/Stowaway) | ⭐ 3.3k | Go | Multi-hop proxy tool for red team operations and pentesting |
 | [RedTeam-OffensiveSecurity](https://github.com/bigb0sss/RedTeam-OffensiveSecurity) | ⭐ 2.3k | Python | Collection of tools and resources for red team operations and offensive security |
 | [Starkiller](https://github.com/BC-SECURITY/Starkiller) | ⭐ 1.6k | Vue | Web-based GUI frontend for managing PowerShell Empire C2 operations |
 | [Beginners-Guide-to-Obfuscation](https://github.com/BC-SECURITY/Beginners-Guide-to-Obfuscation) | ⭐ 1.1k | PowerShell | Educational guide on obfuscation techniques for security professionals |
@@ -148,18 +183,24 @@
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit) | ⭐ 14.7k | Python | Comprehensive social engineering toolkit for security testing and red team operations |
+| [trape](https://github.com/jofpin/trape) | ⭐ 8.6k | Python | Internet people tracker combining OSINT analysis with social engineering |
 
 ### Vulnerability Scanning
 
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [trivy](https://github.com/aquasecurity/trivy) | ⭐ 33.4k | Go | Comprehensive vulnerability scanner for containers, Kubernetes, code, and clouds |
+| [trivy](https://github.com/aquasecurity/trivy) | ⭐ 33.5k | Go | Comprehensive vulnerability scanner for containers, Kubernetes, code, and clouds |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | ⭐ 27.6k | Go | Fast YAML-based vulnerability scanner for apps, APIs, networks, and cloud |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | ⭐ 12.1k | JavaScript | Community-curated vulnerability templates for Nuclei scanner |
 | [vuls](https://github.com/future-architect/vuls) | ⭐ 12.1k | Go | Agent-less vulnerability scanner for Linux, containers, and network devices |
 | [nikto](https://github.com/sullo/nikto) | ⭐ 10.2k | Perl | Classic web server scanner for identifying vulnerabilities and misconfigurations |
+| [kube-hunter](https://github.com/aquasecurity/kube-hunter) | ⭐ 5.0k | Python | Kubernetes cluster security weakness scanner and penetration testing tool |
 | [sslyze](https://github.com/nabla-c0d3/sslyze) | ⭐ 3.7k | Python | Fast SSL/TLS scanning library for security assessments and vulnerability testing |
+| [Raccoon](https://github.com/evyatarmeged/Raccoon) | ⭐ 3.5k | Python | High-performance reconnaissance and vulnerability scanning platform |
 | [Artemis](https://github.com/CERT-Polska/Artemis) | ⭐ 1.1k | Python | Modular vulnerability scanner with automatic report generation capabilities |
+| [Silver](https://github.com/s0md3v/Silver) | ⭐ 1.0k | Python | Mass IP scanner for identifying vulnerable services across networks |
+| [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | ⭐ 840 | Java | BurpSuite extension for detecting CVE-2021-44228 Log4j2 vulnerabilities |
+| [HellRaiser](https://github.com/m0nad/HellRaiser) | ⭐ 573 | Ruby | Nmap-based vulnerability scanner correlating CPEs with CVE database |
 | [subdover](https://github.com/PushpenderIndia/subdover) | ⭐ 108 | Python | Multithreaded subdomain takeover vulnerability scanner with extensive fingerprints |
 | [cloudjack](https://github.com/prevade/cloudjack) | ⭐ 86 | Python | AWS Route53/CloudFront vulnerability assessment and exploitation tool |
 
@@ -184,6 +225,7 @@
 | [smuggler](https://github.com/defparam/smuggler) | ⭐ 2.1k | Python | HTTP request smuggling and desync testing tool for finding protocol vulnerabilities |
 | [owtf](https://github.com/owtf/owtf) | ⭐ 1.9k | TypeScript | Offensive Web Testing Framework for efficient penetration testing workflows |
 | [wordlists](https://github.com/assetnote/wordlists) | ⭐ 1.6k | CSS | Curated wordlists for content discovery and web application penetration testing |
+| [nomore403](https://github.com/devploit/nomore403) | ⭐ 1.6k | Go | Advanced HTTP 403 bypass tool for security researchers |
 | [GAP-Burp-Extension](https://github.com/xnl-h4ck3r/GAP-Burp-Extension) | ⭐ 1.5k | Python | Burp extension for finding potential endpoints and generating custom wordlists |
 | [zap-extensions](https://github.com/zaproxy/zap-extensions) | ⭐ 922 | HTML | ZAP add-ons collection for the popular web application security scanner |
 | [skipfish](https://github.com/spinkham/skipfish) | ⭐ 848 | C | Web application security scanner by lcamtuf for finding vulnerabilities |
@@ -212,8 +254,11 @@
 
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
+| [authelia](https://github.com/authelia/authelia) | ⭐ 27.3k | Go | Multi-factor SSO portal with OpenID certification and passkey support |
 | [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium) | ⭐ 26.1k | Python | Privacy-focused Chromium browser with Google integrations and tracking removed |
 | [ente](https://github.com/ente-io/ente) | ⭐ 25.3k | Dart | End-to-end encrypted cloud storage with zero-knowledge privacy protection |
+| [authentik](https://github.com/goauthentik/authentik) | ⭐ 20.6k | Python | Identity provider with SAML, OAuth2, and OIDC support for authentication |
+| [teleport](https://github.com/gravitational/teleport) | ⭐ 20.1k | Go | Zero-trust access platform for infrastructure with certificate-based auth |
 | [hydra](https://github.com/ory/hydra) | ⭐ 17.0k | Go | Enterprise OAuth2/OIDC provider for identity management and secure authentication |
 | [Signal-Desktop](https://github.com/signalapp/Signal-Desktop) | ⭐ 16.1k | TypeScript | Cross-platform encrypted messaging client for secure desktop communications |
 | [cryptomator](https://github.com/cryptomator/cryptomator) | ⭐ 14.8k | Java | Client-side encryption tool for securing cloud storage files |
@@ -221,8 +266,11 @@
 | [Signal-iOS](https://github.com/signalapp/Signal-iOS) | ⭐ 11.9k | Swift | Open-source encrypted messenger for iOS providing secure communications |
 | [Betterfox](https://github.com/yokoffing/Betterfox) | ⭐ 10.2k | JavaScript | Optimized Firefox configuration for enhanced privacy, security, and performance |
 | [VeraCrypt](https://github.com/veracrypt/VeraCrypt) | ⭐ 9.4k | C | Open-source disk encryption tool for securing data at rest with strong crypto algorithms |
+| [falco](https://github.com/falcosecurity/falco) | ⭐ 8.8k | C++ | Cloud-native runtime security monitoring with eBPF and container support |
 | [PrivateBin](https://github.com/PrivateBin/PrivateBin) | ⭐ 8.1k | PHP | Zero-knowledge encrypted pastebin for secure data sharing with client-side encryption |
+| [spicedb](https://github.com/authzed/spicedb) | ⭐ 6.5k | Go | Zanzibar-inspired authorization database for fine-grained access control |
 | [app](https://github.com/simple-login/app) | ⭐ 6.5k | Python | Privacy-focused email aliasing service to protect email addresses |
+| [permify](https://github.com/Permify/permify) | ⭐ 5.8k | Go | Google Zanzibar-inspired authorization service for fine-grained permissions |
 | [IOSSecuritySuite](https://github.com/securing/IOSSecuritySuite) | ⭐ 2.6k | Swift | iOS anti-tampering and security detection library for mobile app protection |
 | [Elkeid](https://github.com/bytedance/Elkeid) | ⭐ 2.6k | Go | ByteDance open-source CWPP/EDR for hosts, containers, K8s, and serverless |
 | [HidHide](https://github.com/nefarius/HidHide) | ⭐ 1.3k | C++ | Windows input device firewall for controlling gaming peripheral access |
@@ -256,6 +304,7 @@
 |------|------:|----------|-------------|
 | [pi-hole](https://github.com/pi-hole/pi-hole) | ⭐ 56.2k | Shell | Network-wide ad blocker with DNS server and DHCP capabilities |
 | [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) | ⭐ 33.1k | Go | Network-wide DNS server blocking ads and trackers with privacy focus |
+| [cilium](https://github.com/cilium/cilium) | ⭐ 24.0k | Go | eBPF-based container networking and security for Kubernetes environments |
 | [netbird](https://github.com/netbirdio/netbird) | ⭐ 23.7k | Go | Secure WireGuard-based mesh network with SSO and access controls |
 | [nebula](https://github.com/slackhq/nebula) | ⭐ 17.2k | Go | High-performance overlay networking tool for secure mesh networking |
 | [ZeroTierOne](https://github.com/zerotier/ZeroTierOne) | ⭐ 16.6k | C++ | Decentralized VPN creating secure virtual networks with peer-to-peer architecture |
@@ -264,6 +313,7 @@
 | [portmaster](https://github.com/safing/portmaster) | ⭐ 12.1k | Go | Application firewall and privacy protection tool for blocking network surveillance |
 | [docker-pi-hole](https://github.com/pi-hole/docker-pi-hole) | ⭐ 10.9k | Shell | Official Pi-hole Docker image for DNS-based ad blocking |
 | [wireshark](https://github.com/wireshark/wireshark) | ⭐ 9.1k | C | Industry standard network packet analyzer for traffic monitoring and analysis |
+| [ntopng](https://github.com/ntop/ntopng) | ⭐ 7.6k | Lua | Web-based network traffic monitoring and analysis with real-time visibility |
 | [calico](https://github.com/projectcalico/calico) | ⭐ 7.1k | Go | Cloud-native networking and network security solution with identity-aware policies |
 | [nextdns](https://github.com/nextdns/nextdns) | ⭐ 4.0k | Go | NextDNS CLI client providing DNS-over-HTTPS proxy functionality |
 | [NextDNS-Config](https://github.com/yokoffing/NextDNS-Config) | ⭐ 2.9k | — | DNS-over-HTTPS proxy configuration guide with ad/malware blocking capabilities |
@@ -321,7 +371,9 @@
 |------|------:|----------|-------------|
 | [prowler](https://github.com/prowler-cloud/prowler) | ⭐ 13.4k | Python | Multi-cloud security platform for automated compliance and security auditing |
 | [netmaker](https://github.com/gravitl/netmaker) | ⭐ 11.5k | Go | WireGuard-based mesh networking platform for secure distributed virtual networks |
+| [steampipe](https://github.com/turbot/steampipe) | ⭐ 7.7k | Go | SQL-based cloud security posture management and compliance tool |
 | [ScoutSuite](https://github.com/nccgroup/ScoutSuite) | ⭐ 7.6k | Python | Multi-cloud security auditing tool for AWS, Azure, and GCP environments |
+| [cloudquery](https://github.com/cloudquery/cloudquery) | ⭐ 6.3k | Go | Cloud asset inventory and CSPM data pipeline for security posture |
 | [cloudsploit](https://github.com/aquasecurity/cloudsploit) | ⭐ 3.7k | JavaScript | Cloud Security Posture Management tool for multi-cloud environments |
 | [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) | ⭐ 3.1k | Go | Tool for cleaning up cloud resources by deleting all resources in accounts |
 | [cloudsplaining](https://github.com/salesforce/cloudsplaining) | ⭐ 2.2k | JavaScript | AWS IAM privilege escalation and least privilege violation assessment tool |
@@ -337,8 +389,10 @@
 | [grype](https://github.com/anchore/grype) | ⭐ 11.8k | Go | Vulnerability scanner for container images and filesystems with SBOM support |
 | [kubescape](https://github.com/kubescape/kubescape) | ⭐ 11.3k | Go | Kubernetes security platform with risk analysis, compliance, and misconfiguration scanning |
 | [docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐ 9.6k | Shell | Security benchmark script checking Docker container deployment best practices |
+| [kube-bench](https://github.com/aquasecurity/kube-bench) | ⭐ 8.0k | Go | CIS Kubernetes benchmark compliance checker for security best practices |
 | [kata-containers](https://github.com/kata-containers/kata-containers) | ⭐ 7.6k | Rust | Lightweight VMs that provide container-like performance with VM security isolation |
 | [x11docker](https://github.com/mviereck/x11docker) | ⭐ 6.2k | Shell | Security-focused tool to run GUI applications in isolated Docker containers |
+| [kubernetes-network-policy-recipes](https://github.com/ahmetb/kubernetes-network-policy-recipes) | ⭐ 6.1k | — | Ready-to-use Kubernetes Network Policy examples for microsegmentation |
 | [pouch](https://github.com/AliyunContainerService/pouch) | ⭐ 4.7k | Go | Enterprise container engine focused on efficiency, isolation, and security |
 | [CDK](https://github.com/cdk-team/CDK) | ⭐ 4.6k | Go | Kubernetes, Docker, and Containerd security testing toolkit with container escapes |
 | [dockle](https://github.com/goodwithtech/dockle) | ⭐ 3.2k | Go | Docker image linter for security best practices and compliance checking |
@@ -445,11 +499,11 @@
 | [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ⭐ 95.1k | JavaScript | Agent harness optimization system for Claude Code with skills and memory management |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | ⭐ 58.5k | Shell | Complete AI agency framework with specialized agents for different business roles |
 | [nanoGPT](https://github.com/karpathy/nanoGPT) | ⭐ 55.4k | Python | Karpathy's minimal GPT training implementation, perfect for learning and experimentation |
-| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | ⭐ 47.6k | Python | AI skill for professional UI/UX design intelligence across multiple platforms |
+| [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | ⭐ 47.7k | Python | AI skill for professional UI/UX design intelligence across multiple platforms |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | ⭐ 40.6k | — | Curated collection of 5400+ OpenClaw agent skills categorized and filtered |
 | [claude-mem](https://github.com/thedotmack/claude-mem) | ⭐ 39.2k | TypeScript | Claude Code plugin for AI-powered memory and context injection in coding |
 | [MiroFish](https://github.com/666ghj/MiroFish) | ⭐ 38.6k | Python | Multi-agent swarm intelligence engine for prediction and social analysis |
-| [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ⭐ 35.4k | TypeScript | Educational Claude Code agent harness built from scratch for learning AI agents |
+| [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ⭐ 35.5k | TypeScript | Educational Claude Code agent harness built from scratch for learning AI agents |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) | ⭐ 26.4k | Python | Multi-platform agentic chatbot infrastructure with LLM integration and plugins |
 | [ruflo](https://github.com/ruvnet/ruflo) | ⭐ 22.3k | TypeScript | Agent orchestration platform for Claude with multi-agent swarms and RAG integration |
 | [SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework) | ⭐ 21.8k | Python | Configuration framework enhancing Claude Code with specialized commands |
@@ -465,7 +519,7 @@
 | [mcp-memory-service](https://github.com/doobidoo/mcp-memory-service) | ⭐ 1.5k | Python | Persistent memory service for AI agents with knowledge graph and vector storage |
 | [Telos](https://github.com/danielmiessler/Telos) | ⭐ 1.2k | — | Framework for creating deep context about human-relevant topics |
 | [Substrate](https://github.com/danielmiessler/Substrate) | ⭐ 765 | TypeScript | Framework for creating deep contextual understanding using AI |
-| [DreamDojo](https://github.com/NVIDIA/DreamDojo) | ⭐ 633 | Python | NVIDIA's robot world model from large-scale human video data for generalist robotics |
+| [DreamDojo](https://github.com/NVIDIA/DreamDojo) | ⭐ 634 | Python | NVIDIA's robot world model from large-scale human video data for generalist robotics |
 
 ### AI Security
 
@@ -589,7 +643,7 @@
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | ⭐ 185.6k | Shell | Community-driven zsh configuration framework with plugins and themes |
-| [nvm](https://github.com/nvm-sh/nvm) | ⭐ 92.4k | Shell | POSIX-compliant Node.js version manager for switching between Node versions |
+| [nvm](https://github.com/nvm-sh/nvm) | ⭐ 92.5k | Shell | POSIX-compliant Node.js version manager for switching between Node versions |
 | [lazygit](https://github.com/jesseduffield/lazygit) | ⭐ 74.8k | Go | Simple terminal UI for Git commands with visual interface |
 | [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) | ⭐ 62.1k | CSS | Massive collection of developer-focused patched fonts with programming icons |
 | [ladybird](https://github.com/LadybirdBrowser/ladybird) | ⭐ 61.4k | C++ | Independent web browser engine built from scratch for security and performance |
@@ -649,7 +703,7 @@
 | [next.js](https://github.com/vercel/next.js) | ⭐ 138.4k | JavaScript | Popular React framework for production web apps with SSR and static generation |
 | [excalidraw](https://github.com/excalidraw/excalidraw) | ⭐ 119.3k | TypeScript | Collaborative virtual whiteboard for sketching diagrams and visual planning |
 | [ui](https://github.com/shadcn-ui/ui) | ⭐ 110.3k | TypeScript | Modern React component library with accessible design and framework flexibility |
-| [godot](https://github.com/godotengine/godot) | ⭐ 108.2k | C++ | Multi-platform 2D/3D game engine for cross-platform development |
+| [godot](https://github.com/godotengine/godot) | ⭐ 108.3k | C++ | Multi-platform 2D/3D game engine for cross-platform development |
 | [playwright](https://github.com/microsoft/playwright) | ⭐ 84.7k | TypeScript | Cross-browser testing framework for web automation and E2E testing |
 | [spec-kit](https://github.com/github/spec-kit) | ⭐ 79.6k | Python | GitHub toolkit for spec-driven development with AI integration |
 | [tesseract](https://github.com/tesseract-ocr/tesseract) | ⭐ 73.0k | C++ | Industry-standard OCR engine for extracting text from images and documents |
@@ -755,6 +809,7 @@
 | [Cosmos-Server](https://github.com/azukaar/Cosmos-Server) | ⭐ 5.8k | JavaScript | Secure self-hosted server platform with built-in authentication and DDoS protection |
 | [Organizr](https://github.com/causefx/Organizr) | ⭐ 5.7k | PHP | Homelab services dashboard organizer with service management interface |
 | [webmin](https://github.com/webmin/webmin) | ⭐ 5.7k | HTML | Web-based server management control panel for system administration |
+| [guide](https://github.com/hobby-kube/guide) | ⭐ 5.7k | — | Cost-effective Kubernetes cluster setup guide for hobbyists and small-scale |
 | [cinnamon](https://github.com/linuxmint/cinnamon) | ⭐ 5.4k | JavaScript | Linux desktop environment with traditional layout and modern features |
 | [libreddit](https://github.com/libreddit/libreddit) | ⭐ 5.2k | Rust | Privacy-focused Reddit frontend for secure browsing |
 | [raspap-webgui](https://github.com/RaspAP/raspap-webgui) | ⭐ 5.2k | PHP | Full-featured wireless router web interface for Raspberry Pi and Debian devices |
@@ -832,7 +887,16 @@
 |------|------:|----------|-------------|
 | [pwntools](https://github.com/Gallopsled/pwntools) | ⭐ 13.3k | Python | Popular CTF framework and exploit development library with extensive tooling |
 | [juice-shop](https://github.com/juice-shop/juice-shop) | ⭐ 12.7k | TypeScript | OWASP Juice Shop - intentionally insecure web app for security training and CTFs |
+| [ctf-tools](https://github.com/zardus/ctf-tools) | ⭐ 9.3k | Shell | Setup scripts for security research and CTF tools collection |
 | [kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) | ⭐ 5.4k | HTML | Vulnerable by design Kubernetes cluster for hands-on security training |
+| [stego-toolkit](https://github.com/DominicBreuker/stego-toolkit) | ⭐ 2.6k | Shell | Collection of steganography tools for CTF challenges |
+| [f8x](https://github.com/ffffffff0x/f8x) | ⭐ 2.1k | Shell | Red/blue team environment automation deployment tool |
+| [CTFCrackTools](https://github.com/0Chencc/CTFCrackTools) | ⭐ 2.1k | Rust | Next-generation CTF Swiss Army Knife with visual workflow |
+| [ToolsFx](https://github.com/Leon406/ToolsFx) | ⭐ 2.0k | Kotlin | Cross-platform crypto toolbox for CTF and cryptography challenges |
+| [resources](https://github.com/ctfs/resources) | ⭐ 1.8k | — | General collection of CTF information, tools, and tips |
+| [ctftool](https://github.com/taviso/ctftool) | ⭐ 1.7k | C | Interactive CTF exploration tool for reverse engineering |
+| [Name-That-Hash](https://github.com/bee-san/Name-That-Hash) | ⭐ 1.6k | Python | Hash identification tool for CTF and security research |
+| [CaptfEncoder](https://github.com/guyoung/CaptfEncoder) | ⭐ 1.3k | JavaScript | Cross-platform network security tool suite for CTF and crypto |
 
 ### Documentation
 
@@ -853,7 +917,7 @@
 | [awesome-python](https://github.com/vinta/awesome-python) | ⭐ 288.4k | Python | Comprehensive list of Python frameworks, libraries and development resources |
 | [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | ⭐ 281.4k | — | Comprehensive list of self-hostable network services and web applications |
 | [Python](https://github.com/TheAlgorithms/Python) | ⭐ 218.9k | Python | Educational algorithm implementations for computer science and interview preparation |
-| [awesome-go](https://github.com/avelino/awesome-go) | ⭐ 167.9k | Go | Curated list of Go frameworks, libraries and development resources |
+| [awesome-go](https://github.com/avelino/awesome-go) | ⭐ 168.0k | Go | Curated list of Go frameworks, libraries and development resources |
 | [awesome-mac](https://github.com/jaywcjlove/awesome-mac) | ⭐ 100.6k | JavaScript | Comprehensive collection of high-quality macOS software and tools |
 | [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) | ⭐ 47.9k | — | Curated list of open source macOS applications for developers |
 | [awesome-docker](https://github.com/veggiemonk/awesome-docker) | ⭐ 35.7k | Makefile | Comprehensive list of Docker resources, tools and projects |
@@ -872,25 +936,31 @@
 | [GTFOBins.github.io](https://github.com/GTFOBins/GTFOBins.github.io) | ⭐ 12.8k | YAML | Curated list of Unix binaries for bypassing security restrictions and privilege escalation |
 | [hacktricks](https://github.com/HackTricks-wiki/hacktricks) | ⭐ 11.1k | CSS | Comprehensive wiki of hacking techniques, CTF tricks, and pentesting knowledge |
 | [awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | ⭐ 10.0k | — | Curated collection of threat intelligence resources and tools |
+| [devops-resources](https://github.com/bregman-arie/devops-resources) | ⭐ 9.5k | Groovy | Comprehensive DevOps resources covering cloud, containers, and security |
 | [awesome-privacy](https://github.com/Lissy93/awesome-privacy) | ⭐ 9.1k | Astro | Comprehensive curated list of privacy and security-focused tools and services |
 | [wstg](https://github.com/OWASP/wstg) | ⭐ 9.0k | — | OWASP's comprehensive guide to testing web application and service security |
 | [awesome-incident-response](https://github.com/meirwah/awesome-incident-response) | ⭐ 8.9k | — | Incident response tools and DFIR resources for security operations teams |
 | [awesome-home-assistant](https://github.com/frenck/awesome-home-assistant) | ⭐ 7.5k | Shell | Curated Home Assistant resources for IoT and smart home development |
 | [awesome-appsec](https://github.com/paragonie/awesome-appsec) | ⭐ 6.9k | PHP | Curated collection of application security learning resources and references |
 | [awesome-web-hacking](https://github.com/infoslack/awesome-web-hacking) | ⭐ 6.8k | — | Curated list of web application security resources and hacking tools |
+| [DevSecOps](https://github.com/sottlmarek/DevSecOps) | ⭐ 6.7k | — | Ultimate DevSecOps resource library and tool collection |
 | [Top10](https://github.com/OWASP/Top10) | ⭐ 5.4k | HTML | Official OWASP Top 10 security risks documentation for web applications |
 | [awesome-uses](https://github.com/wesbos/awesome-uses) | ⭐ 5.2k | JavaScript | Curated list of developer setups and configurations for workspace optimization |
 | [awesome-cybersecurity-blueteam](https://github.com/fabacab/awesome-cybersecurity-blueteam) | ⭐ 5.2k | — | Comprehensive blue team cybersecurity resources and defensive security tools |
 | [WebHackersWeapons](https://github.com/hahwul/WebHackersWeapons) | ⭐ 4.5k | Ruby | Curated collection of web hacking tools and resources for bug bounty |
 | [awesome-threat-detection](https://github.com/0x4D31/awesome-threat-detection) | ⭐ 4.5k | — | Curated list of threat detection and hunting resources for security analysts |
+| [awesome-termux-hacking](https://github.com/may215/awesome-termux-hacking) | ⭐ 4.4k | — | Curated list of Termux-based hacking and OSINT tools |
 | [awesome-newsletters](https://github.com/zudochkin/awesome-newsletters) | ⭐ 4.3k | — | Tech newsletters for staying updated on industry developments |
 | [awesome-devops](https://github.com/wmariuss/awesome-devops) | ⭐ 4.0k | Python | Curated DevOps tools, platforms, and best practices resource collection |
 | [privacyguides.org](https://github.com/privacyguides/privacyguides.org) | ⭐ 3.9k | Markdown | Privacy and security guidance resource for protection against surveillance |
 | [Pentest-Cheat-Sheets](https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets) | ⭐ 2.9k | Shell | Penetration testing command reference and code snippet collection |
 | [awesome-game-security](https://github.com/gmh5225/awesome-game-security) | ⭐ 2.8k | Python | Game security resources covering anti-cheat, reverse engineering, and protection |
+| [Awesome-Telegram-OSINT](https://github.com/ItIsMeCall911/Awesome-Telegram-OSINT) | ⭐ 2.6k | — | Curated resources for Telegram-focused OSINT investigations |
 | [hackingthe.cloud](https://github.com/Hacking-the-Cloud/hackingthe.cloud) | ⭐ 2.6k | Dockerfile | Encyclopedia of offensive and defensive cloud security techniques and knowledge |
 | [BurpSuite-For-Pentester](https://github.com/Ignitetechnologies/BurpSuite-For-Pentester) | ⭐ 2.5k | — | Comprehensive BurpSuite cheatsheet for bug bounty hunters and pentesters |
+| [FBI-tools](https://github.com/danieldurnea/FBI-tools) | ⭐ 2.4k | — | Curated collection of OSINT and digital forensics tools |
 | [awesome-engineering-team-management](https://github.com/kdeldycke/awesome-engineering-team-management) | ⭐ 2.4k | — | Engineering management transition guide for developers moving to leadership roles |
+| [hacking-resources](https://github.com/Lifka/hacking-resources) | ⭐ 2.4k | — | Comprehensive hacking resources and cheat sheets for offensive/defensive security |
 | [awesome-iam](https://github.com/kdeldycke/awesome-iam) | ⭐ 2.2k | — | Comprehensive identity and access management knowledge base for cloud security |
 | [awesome-lockpicking](https://github.com/fabacab/awesome-lockpicking) | ⭐ 1.8k | — | Physical security resources covering lockpicking and lock bypass techniques |
 | [awesome-soc](https://github.com/cyb3rxp/awesome-soc) | ⭐ 1.7k | — | Curated knowledge base for building and running Security Operations Centers |
@@ -915,6 +985,7 @@
 | [OSCE3-Complete-Guide](https://github.com/JoasASantos/OSCE3-Complete-Guide) | ⭐ 3.8k | — | Complete study guide for OSCE3 certification tracks (OSWE, OSEP, OSED, OSEE) |
 | [Fuzzing101](https://github.com/antonio-morales/Fuzzing101) | ⭐ 3.7k | — | Step-by-step fuzzing tutorial covering AFL, fuzzilli and other fuzzing techniques |
 | [cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat) | ⭐ 3.5k | Python | Vulnerable AWS environment deployment tool for cloud security training |
+| [mutillidae](https://github.com/webpwnized/mutillidae) | ⭐ 1.5k | PHP | Deliberately vulnerable web application for security training |
 | [secure-repository-supply-chain](https://github.com/skills/secure-repository-supply-chain) | ⭐ 183 | C# | GitHub Skills course on securing supply chain and managing dependencies |
 
 ## 📦 Archived
@@ -928,10 +999,17 @@ These projects are no longer actively maintained.
 | [SimpleXPCApp](https://github.com/securing/SimpleXPCApp) | ⭐ 108 | Secure XPC helper implementation example for macOS development |
 | [overseerr](https://github.com/sct/overseerr) | ⭐ 5.0k | Request management and media discovery tool for Plex ecosystem |
 | [blackmagic](https://github.com/blackmagic-debug/blackmagic) | ⭐ 3.7k | In-application debugger for ARM Cortex and RISC-V processor development |
+| [datree](https://github.com/datreeio/datree) | ⭐ 6.3k | Kubernetes policy enforcement to prevent misconfigurations in production |
 | [terrascan](https://github.com/tenable/terrascan) | ⭐ 5.2k | Multi-cloud IaC security scanner for compliance and vulnerability detection |
 | [runtime](https://github.com/kata-containers/runtime) | ⭐ 2.1k | Kata Containers v1.x runtime for secure container virtualization |
+| [twint](https://github.com/twintproject/twint) | ⭐ 16.4k | Advanced Twitter OSINT tool for scraping user data without API limits |
+| [gitrob](https://github.com/michenriksen/gitrob) | ⭐ 6.1k | GitHub organization reconnaissance tool for security assessment |
+| [aquatone](https://github.com/michenriksen/aquatone) | ⭐ 5.9k | Domain reconnaissance tool with headless Chrome for flyovers |
+| [xray](https://github.com/evilsocket/xray) | ⭐ 2.3k | Network reconnaissance and OSINT gathering tool with Shodan integration |
 | [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | ⭐ 2.2k | Windows privilege escalation tool exploiting Print Spooler service impersonation |
 | [DumpsterDiver](https://github.com/securing/DumpsterDiver) | ⭐ 1.0k | Secret discovery tool for scanning various file types for sensitive data |
+| [exitmap](https://github.com/NullHypothesis/exitmap) | ⭐ 460 | Fast modular scanner specifically designed for Tor exit relays |
+| [Pentest-Tools-Framework](https://github.com/pikpikcu/Pentest-Tools-Framework) | ⭐ 459 | Comprehensive pentest framework with exploits, scanners, and tools |
 | [awesome-linux](https://github.com/inputsh/awesome-linux) | ⭐ 4.9k | Linux projects and resources for system administration |
 | [ssc-reading-list](https://github.com/chainguard-dev/ssc-reading-list) | ⭐ 365 | Curated reading list for software supply-chain security topics |
 

@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-22T06:59:32.761Z",
+  "lastRun": "2026-03-22T08:19:59.897Z",
   "discoveredRepos": [
     {
       "repo": "DependencyTrack/dependency-track",
@@ -223,6 +223,318 @@
     },
     {
       "repo": "danny-avila/LibreChat",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "zardus/ctf-tools",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "RsaCtfTool/RsaCtfTool",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "diego-treitos/linux-smart-enumeration",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "swisskyrepo/SSRFmap",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ph4ntonn/Stowaway",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "DominicBreuker/stego-toolkit",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "TH3xACE/SUDO_KILLER",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "david942j/one_gadget",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ffffffff0x/f8x",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "0Chencc/CTFCrackTools",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Leon406/ToolsFx",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ctfs/resources",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "taviso/ctftool",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bee-san/Name-That-Hash",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "devploit/nomore403",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cddmp/enum4linux-ng",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "webpwnized/mutillidae",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "guyoung/CaptfEncoder",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "qi4L/qscan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "koutto/jok3r",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "k8gege/Aggressor",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "s0md3v/Silver",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "marco-lancini/goscan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "f0ng/log4j2burpscanner",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "timest/goscan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "dmdhrumilmistry/pyhtools",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "m0nad/HellRaiser",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "eviltik/evilscan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "GinjaChris/pentmenu",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "mavris/MMLanScan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "idealeer/xmap",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "samyk/webscan",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "NullHypothesis/exitmap",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "pikpikcu/Pentest-Tools-Framework",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "BornToBeRoot/PowerShell_IPv4NetworkScanner",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "twintproject/twint",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Datalux/Osintgram",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "jofpin/trape",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "HunxByts/GhostTrack",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cipher387/osint_stuff_tool_collection",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "michenriksen/gitrob",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "michenriksen/aquatone",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "p1ngul1n0/blackbird",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "alpkeskin/mosint",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "khast3x/h8mail",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "apurvsinghgautam/robin",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "may215/awesome-termux-hacking",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "DedSecInside/TorBot",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "megadose/toutatis",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Findomain/Findomain",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "evyatarmeged/Raccoon",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "sinwindie/OSINT",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Lucksi/Mr.Holmes",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "martinvigo/email2phonenumber",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ItIsMeCall911/Awesome-Telegram-OSINT",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "thewhiteh4t/pwnedOrNot",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "thewhiteh4t/nexfil",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "danieldurnea/FBI-tools",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Lifka/hacking-resources",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "evilsocket/xray",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Astrosp/Awesome-OSINT-For-Everything",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "authelia/authelia",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cilium/cilium",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "goauthentik/authentik",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "gravitational/teleport",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bregman-arie/devops-resources",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "falcosecurity/falco",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "aquasecurity/kube-bench",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "turbot/steampipe",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ntop/ntopng",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "sottlmarek/DevSecOps",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "authzed/spicedb",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "datreeio/datree",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cloudquery/cloudquery",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ahmetb/kubernetes-network-policy-recipes",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "Permify/permify",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "hobby-kube/guide",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "aquasecurity/kube-hunter",
       "added": "2026-03-22"
     }
   ]
