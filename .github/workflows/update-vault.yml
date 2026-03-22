@@ -58,14 +58,21 @@ jobs:
         run: node generate-readme.mjs
 
       - name: Commit and push
+        id: push
         if: ${{ inputs.dry_run != 'true' }}
         run: |
           git add tools.json README.md update-manifest.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
             TOOL_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('tools.json','utf8')).length)")
             git commit -m "vault: weekly update — ${TOOL_COUNT} tools [automated]"
             git pull --rebase origin main
             git push
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
+
+      - name: Trigger Vercel redeploy
+        if: steps.push.outputs.changed == 'true'
+        run: curl -sf -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}" > /dev/null
