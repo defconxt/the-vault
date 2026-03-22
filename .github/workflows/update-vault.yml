@@ -66,5 +66,6 @@ jobs:
           else
             TOOL_COUNT=$(node -e "console.log(JSON.parse(require('fs').readFileSync('tools.json','utf8')).length)")
             git commit -m "vault: weekly update — ${TOOL_COUNT} tools [automated]"
+            git pull --rebase origin main
             git push
           fi
