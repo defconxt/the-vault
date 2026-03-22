@@ -2,7 +2,7 @@
 
 > A curated, auto-updating collection of security, AI, and development tools. Updated weekly.
 
-**619** tools across **6** categories • Last updated: 2026-03-22
+**622** tools across **6** categories • Last updated: 2026-03-22
 
 🌐 **Browse online**: [blacktemple.net/vault](https://blacktemple.net/vault)
 
@@ -476,6 +476,7 @@
 | [codex](https://github.com/openai/codex) | ⭐ 66.8k | Rust | Lightweight terminal-based coding agent from OpenAI |
 | [get-shit-done](https://github.com/gsd-build/get-shit-done) | ⭐ 38.2k | JavaScript | Meta-prompting framework for Claude Code with spec-driven development approach |
 | [pi-mono](https://github.com/badlogic/pi-mono) | ⭐ 26.7k | TypeScript | AI agent toolkit with coding CLI, unified LLM API, and web interfaces |
+| [nanoclaw](https://github.com/qwibitai/nanoclaw) | ⭐ 24.8k | TypeScript | Containerized AI assistant with multi-messenger support and memory |
 | [vibe-kanban](https://github.com/BloopAI/vibe-kanban) | ⭐ 23.6k | Rust | Kanban-style task manager for enhancing Claude Code and coding agents |
 | [Roo-Code](https://github.com/RooCodeInc/Roo-Code) | ⭐ 22.8k | TypeScript | AI-powered development team integrated directly into code editors for assistance |
 | [GitNexus](https://github.com/abhigyanpatwari/GitNexus) | ⭐ 18.6k | TypeScript | Client-side code intelligence engine creating knowledge graphs with RAG agent |
@@ -494,6 +495,7 @@
 | [litellm](https://github.com/BerriAI/litellm) | ⭐ 39.9k | Python | Universal LLM API gateway with cost tracking and guardrails for 100+ providers |
 | [gstack](https://github.com/garrytan/gstack) | ⭐ 35.6k | TypeScript | Opinionated Claude Code setup for CEO, Designer, Eng Manager roles |
 | [github-mcp-server](https://github.com/github/github-mcp-server) | ⭐ 28.1k | Go | GitHub's official Model Context Protocol server for AI integration |
+| [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | ⭐ 26.5k | — | Comprehensive curated list of LLM resources, papers, and tools |
 | [shell_gpt](https://github.com/TheR1D/shell_gpt) | ⭐ 11.9k | Python | Command-line productivity tool powered by GPT and other LLMs for task automation |
 | [imaginAIry](https://github.com/brycedrennan/imaginAIry) | ⭐ 8.1k | Python | Pythonic AI tool for generating images and videos with AI models |
 | [claude-code-hooks-mastery](https://github.com/disler/claude-code-hooks-mastery) | ⭐ 3.4k | Python | Educational resource for mastering Claude Code Hooks functionality |
@@ -521,6 +523,7 @@
 | [cli](https://github.com/httpie/cli) | ⭐ 37.8k | Python | Modern command-line HTTP client with JSON support, colors, and developer features |
 | [ntfy](https://github.com/binwiederhier/ntfy) | ⭐ 29.3k | Go | Self-hosted notification service for developers to send push notifications via HTTP |
 | [hurl](https://github.com/Orange-OpenSource/hurl) | ⭐ 18.7k | Rust | Plain text HTTP testing tool for API testing and integration testing |
+| [star-history](https://github.com/star-history/star-history) | ⭐ 8.7k | TypeScript | Visualize GitHub star growth history — great for evaluating project momentum |
 | [shlink](https://github.com/shlinkio/shlink) | ⭐ 4.8k | PHP | Self-hosted URL shortener with REST API for link management |
 | [notion-py](https://github.com/jamalex/notion-py) | ⭐ 4.4k | Python | Python API client for Notion workspace automation and integration |
 | [Daemon](https://github.com/danielmiessler/Daemon) | ⭐ 175 | TypeScript | Open-source personal API framework for custom integrations |
