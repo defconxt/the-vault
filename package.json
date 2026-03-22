@@ -1,0 +1,16 @@
+{
+  "name": "the-vault",
+  "version": "1.0.0",
+  "description": "A curated, auto-updating collection of security, AI, and development tools",
+  "type": "module",
+  "scripts": {
+    "seed": "node seed-from-stars.mjs",
+    "update": "node update-pipeline.mjs",
+    "readme": "node generate-readme.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0"
+  },
+  "author": "defconxt",
+  "license": "CC0-1.0"
+}

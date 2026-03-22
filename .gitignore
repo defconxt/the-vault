@@ -1,0 +1,4 @@
+node_modules/
+stars-raw.json
+stars-parsed.json
+.env
