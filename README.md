@@ -937,6 +937,67 @@ These projects are no longer actively maintained.
 
 ---
 
+## How It Works
+
+The Vault is fully automated — no manual curation needed after initial setup.
+
+```
+Every Sunday 8AM UTC
+  └─ GitHub Actions workflow runs
+       ├─ Discovers new repos (GitHub topic search + starred repos)
+       ├─ Deduplicates against existing tools.json
+       ├─ Categorizes new finds via Claude API
+       ├─ Refreshes star counts & flags archived repos
+       ├─ Generates this README from tools.json
+       ├─ Commits & pushes to this repo
+       └─ Triggers Vercel redeploy of blacktemple.net
+             └─ Prebuild fetches latest tools.json
+                  └─ blacktemple.net/vault shows fresh data
+```
+
+### Pipeline Details
+
+| Component | Description |
+|-----------|-------------|
+| **Discovery** | Searches GitHub API across 30 security/AI/dev topic queries, plus syncs starred repos |
+| **Deduplication** | Checks against existing `tools.json` by repo full name |
+| **Categorization** | Claude API (`claude-sonnet-4-20250514`) assigns category, subcategory, and editorial note |
+| **Metadata refresh** | Rotates through 1/4 of all tools per run, updating star counts and archived status |
+| **Rate limiting** | 15s between Claude API batches, 60s backoff + retry on 429s, 3s between GitHub search calls |
+| **Website sync** | Vercel deploy hook triggers rebuild; prebuild fetches `tools.json` from this repo |
+
+### Data Model
+
+Each entry in `tools.json`:
+
+```json
+{
+  "name": "hashcat",
+  "repo": "hashcat/hashcat",
+  "url": "https://github.com/hashcat/hashcat",
+  "description": "World's fastest password recovery utility",
+  "category": "offensive-security",
+  "subcategory": "password-cracking",
+  "language": "C",
+  "stars": 25618,
+  "note": "GPU-accelerated, supports 300+ hash types",
+  "added": "2026-03-21",
+  "updated": "2026-03-22",
+  "status": "active"
+}
+```
+
+### Categories
+
+| Category | Scope |
+|----------|-------|
+| 🗡️ Offensive Security | Recon, exploitation, password cracking, web testing, red team, reverse engineering |
+| 🛡️ Defensive Security | SIEM, WAF, forensics, malware analysis, threat intel, compliance |
+| 🔧 DevSecOps | SAST/DAST/SCA, container & cloud security, supply chain, secrets management |
+| 🤖 AI & Agents | Coding agents, LLM tools, AI frameworks, prompt engineering, AI security |
+| 💻 Development | CLI tools, frameworks, infrastructure, databases, editors |
+| 📚 Research & Learning | CTF platforms, training, knowledge bases, documentation |
+
 ## Contributing
 
 This list is maintained by [@defconxt](https://github.com/defconxt) and updated weekly via automated pipeline.
