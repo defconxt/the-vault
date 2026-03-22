@@ -254,11 +254,78 @@ Respond with ONLY the JSON array.`,
         }
       }
     } catch (e) {
-      console.error(`  Batch ${batchNum} error: ${e.message}`)
+      if (e.status === 429 || (e.message && e.message.includes('429'))) {
+        console.log(`  Batch ${batchNum} rate limited — waiting 60s and retrying...`)
+        await new Promise((r) => setTimeout(r, 60000))
+        try {
+          const retry = await client.messages.create({
+            model: 'claude-sonnet-4-20250514',
+            max_tokens: 4096,
+            messages: [
+              {
+                role: 'user',
+                content: `You are categorizing GitHub repositories for "The Vault" — a curated collection of security, AI, and development tools.
+
+CATEGORIES AND SUBCATEGORIES:
+${CATEGORY_LIST}
+
+For each repo below, respond with a JSON array. Each element:
+{
+  "index": <1-based index>,
+  "relevant": true/false,
+  "category": "<category-slug>",
+  "subcategory": "<subcategory-slug>",
+  "note": "<one-line editorial note, max 100 chars>"
+}
+
+Set "relevant": false for non-IT repos (games, art, personal projects, etc.)
+
+REPOS:
+${repoList}
+
+Respond with ONLY the JSON array.`,
+              },
+            ],
+          })
+          const retryText = retry.content[0].text
+          const retryMatch = retryText.match(/\[[\s\S]*\]/)
+          if (retryMatch) {
+            const parsed = JSON.parse(retryMatch[0])
+            for (const item of parsed) {
+              if (item.relevant) {
+                const repo = batch[item.index - 1]
+                if (repo) {
+                  results.push({
+                    name: repo.name,
+                    repo: repo.full_name,
+                    url: repo.url,
+                    description: repo.description || '',
+                    category: item.category,
+                    subcategory: item.subcategory,
+                    language: repo.language || '',
+                    stars: repo.stars,
+                    topics: repo.topics || [],
+                    note: item.note,
+                    added: new Date().toISOString().split('T')[0],
+                    updated: repo.updated_at?.split('T')[0] || '',
+                    status: repo.archived ? 'archived' : 'active',
+                    homepage: repo.homepage || '',
+                  })
+                }
+              }
+            }
+            console.log(`  Batch ${batchNum} retry succeeded`)
+          }
+        } catch (retryErr) {
+          console.error(`  Batch ${batchNum} retry failed: ${retryErr.message}`)
+        }
+      } else {
+        console.error(`  Batch ${batchNum} error: ${e.message}`)
+      }
     }
 
     if (i + BATCH_SIZE < repos.length) {
-      await new Promise((r) => setTimeout(r, 1500))
+      await new Promise((r) => setTimeout(r, 15000))
     }
   }
 
