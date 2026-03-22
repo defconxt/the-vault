@@ -1,0 +1,229 @@
+{
+  "lastRun": "2026-03-22T06:59:32.761Z",
+  "discoveredRepos": [
+    {
+      "repo": "DependencyTrack/dependency-track",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "slsa-framework/slsa",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "murphysecurity/murphysec",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "XmirrorSecurity/OpenSCA-cli",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "in-toto/in-toto",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "mozilla/cargo-vet",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "aquasecurity/chain-bench",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bodadotsh/npm-security-best-practices",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "theupdateframework/go-tuf",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ossillate-inc/packj",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "chainloop-dev/chainloop",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "in-toto/witness",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "mindersec/minder",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "chainguard-dev/ssc-reading-list",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bureado/awesome-software-supply-chain-security",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "tektoncd/chains",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "tiiuae/sbomnix",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "sigstore/model-transparency",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bosch-aisecurity-aishield/watchtower",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "openraven/magpie",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "oracle/macaron",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "skills/secure-repository-supply-chain",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "kpcyrd/i-probably-didnt-backdoor-this",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "SpectralOps/preflight",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "in-toto/in-toto-golang",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "vishalgarg-sec/Software-Supply-Chain-Security",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "AgentSeal/agentseal",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "osssanitizer/maloss",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "sickcodes/Docker-OSX",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "aquasecurity/trivy",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "slimtoolkit/slim",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "future-architect/vuls",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "docker/docker-bench-security",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "kata-containers/kata-containers",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "mviereck/x11docker",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "madhuakula/kubernetes-goat",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "zerocore-ai/microsandbox",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "AliyunContainerService/pouch",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cdk-team/CDK",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "deepfence/SecretScanner",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "metorial/metorial",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "goodwithtech/dockle",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "ContainerSSH/ContainerSSH",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "bytedance/Elkeid",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "kata-containers/runtime",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "krol3/container-security-checklist",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "project-copacetic/copacetic",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "IBM/fhe-toolkit-linux",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "stackrox/stackrox",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "aquasecurity/trivy-action",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "genuinetools/bane",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "eliasgranderubio/dagda",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "cline/cline",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "thedotmack/claude-mem",
+      "added": "2026-03-22"
+    },
+    {
+      "repo": "danny-avila/LibreChat",
+      "added": "2026-03-22"
+    }
+  ]
+}

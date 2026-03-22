@@ -2,7 +2,7 @@
 
 > A curated, auto-updating collection of security, AI, and development tools. Updated weekly.
 
-**622** tools across **6** categories • Last updated: 2026-03-22
+**675** tools across **6** categories • Last updated: 2026-03-22
 
 🌐 **Browse online**: [blacktemple.net/vault](https://blacktemple.net/vault)
 
@@ -153,8 +153,10 @@
 
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
+| [trivy](https://github.com/aquasecurity/trivy) | ⭐ 33.4k | Go | Comprehensive vulnerability scanner for containers, Kubernetes, code, and clouds |
 | [nuclei](https://github.com/projectdiscovery/nuclei) | ⭐ 27.6k | Go | Fast YAML-based vulnerability scanner for apps, APIs, networks, and cloud |
 | [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates) | ⭐ 12.1k | JavaScript | Community-curated vulnerability templates for Nuclei scanner |
+| [vuls](https://github.com/future-architect/vuls) | ⭐ 12.1k | Go | Agent-less vulnerability scanner for Linux, containers, and network devices |
 | [nikto](https://github.com/sullo/nikto) | ⭐ 10.2k | Perl | Classic web server scanner for identifying vulnerabilities and misconfigurations |
 | [sslyze](https://github.com/nabla-c0d3/sslyze) | ⭐ 3.7k | Python | Fast SSL/TLS scanning library for security assessments and vulnerability testing |
 | [Artemis](https://github.com/CERT-Polska/Artemis) | ⭐ 1.1k | Python | Modular vulnerability scanner with automatic report generation capabilities |
@@ -222,6 +224,7 @@
 | [PrivateBin](https://github.com/PrivateBin/PrivateBin) | ⭐ 8.1k | PHP | Zero-knowledge encrypted pastebin for secure data sharing with client-side encryption |
 | [app](https://github.com/simple-login/app) | ⭐ 6.5k | Python | Privacy-focused email aliasing service to protect email addresses |
 | [IOSSecuritySuite](https://github.com/securing/IOSSecuritySuite) | ⭐ 2.6k | Swift | iOS anti-tampering and security detection library for mobile app protection |
+| [Elkeid](https://github.com/bytedance/Elkeid) | ⭐ 2.6k | Go | ByteDance open-source CWPP/EDR for hosts, containers, K8s, and serverless |
 | [HidHide](https://github.com/nefarius/HidHide) | ⭐ 1.3k | C++ | Windows input device firewall for controlling gaming peripheral access |
 | [thiss.link](https://github.com/NayamAmarshe/thiss.link) | ⭐ 596 | TypeScript | Privacy-focused encrypted link shortener with password protection and self-hosting |
 
@@ -323,14 +326,26 @@
 | [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) | ⭐ 3.1k | Go | Tool for cleaning up cloud resources by deleting all resources in accounts |
 | [cloudsplaining](https://github.com/salesforce/cloudsplaining) | ⭐ 2.2k | JavaScript | AWS IAM privilege escalation and least privilege violation assessment tool |
 | [PurplePanda](https://github.com/carlospolop/PurplePanda) | ⭐ 719 | Python | Multi-cloud privilege escalation path discovery tool for GCP, GitHub, Kubernetes |
+| [magpie](https://github.com/openraven/magpie) | ⭐ 199 | Java | CSPM focused on cloud ransomware and supply chain attack analysis |
 
 ### Container Security
 
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [harbor](https://github.com/goharbor/harbor) | ⭐ 27.8k | Go | Enterprise container registry with security scanning and content signing |
+| [slim](https://github.com/slimtoolkit/slim) | ⭐ 23.1k | Go | Container image minification tool that reduces size by 30x while improving security |
 | [grype](https://github.com/anchore/grype) | ⭐ 11.8k | Go | Vulnerability scanner for container images and filesystems with SBOM support |
 | [kubescape](https://github.com/kubescape/kubescape) | ⭐ 11.3k | Go | Kubernetes security platform with risk analysis, compliance, and misconfiguration scanning |
+| [docker-bench-security](https://github.com/docker/docker-bench-security) | ⭐ 9.6k | Shell | Security benchmark script checking Docker container deployment best practices |
+| [kata-containers](https://github.com/kata-containers/kata-containers) | ⭐ 7.6k | Rust | Lightweight VMs that provide container-like performance with VM security isolation |
+| [x11docker](https://github.com/mviereck/x11docker) | ⭐ 6.2k | Shell | Security-focused tool to run GUI applications in isolated Docker containers |
+| [pouch](https://github.com/AliyunContainerService/pouch) | ⭐ 4.7k | Go | Enterprise container engine focused on efficiency, isolation, and security |
+| [CDK](https://github.com/cdk-team/CDK) | ⭐ 4.6k | Go | Kubernetes, Docker, and Containerd security testing toolkit with container escapes |
+| [dockle](https://github.com/goodwithtech/dockle) | ⭐ 3.2k | Go | Docker image linter for security best practices and compliance checking |
+| [container-security-checklist](https://github.com/krol3/container-security-checklist) | ⭐ 1.6k | — | Comprehensive container security checklist for DevSecOps practices |
+| [copacetic](https://github.com/project-copacetic/copacetic) | ⭐ 1.6k | Go | CLI tool for direct container image patching and vulnerability remediation |
+| [stackrox](https://github.com/stackrox/stackrox) | ⭐ 1.3k | Go | Kubernetes security platform with runtime monitoring and risk analysis |
+| [bane](https://github.com/genuinetools/bane) | ⭐ 1.2k | Go | Custom AppArmor profile generator for enhanced Docker container security |
 | [images](https://github.com/chainguard-images/images) | ⭐ 664 | HCL | Distroless container images with minimal attack surface and security hardening |
 | [imgcrypt](https://github.com/containerd/imgcrypt) | ⭐ 424 | Go | OCI container image encryption package for securing container workloads |
 | [image-reflector-controller](https://github.com/fluxcd/image-reflector-controller) | ⭐ 120 | Go | GitOps component that scans container registries for image updates and vulnerabilities |
@@ -358,6 +373,8 @@
 | [faraday](https://github.com/infobyte/faraday) | ⭐ 6.3k | Python | Open source vulnerability management platform with tool integration and reporting |
 | [retire.js](https://github.com/RetireJS/retire.js) | ⭐ 4.1k | JavaScript | Scanner for JavaScript libraries with known vulnerabilities and SBOM generation |
 | [threat-dragon](https://github.com/OWASP/threat-dragon) | ⭐ 1.4k | JavaScript | OWASP threat modeling tool for identifying security risks in application design |
+| [trivy-action](https://github.com/aquasecurity/trivy-action) | ⭐ 1.3k | Shell | GitHub Action for Trivy vulnerability scanning of Docker containers |
+| [dagda](https://github.com/eliasgranderubio/dagda) | ⭐ 1.2k | Python | Docker image vulnerability scanner with malware detection and runtime monitoring |
 
 ### Secrets Management
 
@@ -370,6 +387,7 @@
 | [sops](https://github.com/getsops/sops) | ⭐ 21.2k | Go | Flexible secrets encryption tool supporting multiple cloud providers and PGP |
 | [git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) | ⭐ 8.7k | C# | Cross-platform Git credential manager with secure auth for major Git services |
 | [external-secrets](https://github.com/external-secrets/external-secrets) | ⭐ 6.5k | Go | Kubernetes operator that syncs secrets from external providers like AWS Secrets Manager |
+| [SecretScanner](https://github.com/deepfence/SecretScanner) | ⭐ 3.3k | Go | Container secret scanner for passwords and API keys in images and filesystems |
 | [yopass](https://github.com/jhaals/yopass) | ⭐ 2.7k | TypeScript | Secure one-time sharing of secrets and passwords with encryption |
 | [traefik-forward-auth](https://github.com/thomseddon/traefik-forward-auth) | ⭐ 2.4k | Go | OAuth-based forward authentication service for Traefik reverse proxy |
 | [ggshield](https://github.com/GitGuardian/ggshield) | ⭐ 1.9k | Python | Advanced secrets detection with 500+ validators for CI/CD pipelines |
@@ -387,11 +405,31 @@
 |------|------:|----------|-------------|
 | [renovate](https://github.com/renovatebot/renovate) | ⭐ 21.1k | TypeScript | Automated dependency updates across multiple platforms and package managers |
 | [cosign](https://github.com/sigstore/cosign) | ⭐ 5.7k | Go | Keyless code signing and verification for containers and software artifacts |
+| [dependency-track](https://github.com/DependencyTrack/dependency-track) | ⭐ 3.7k | Java | OWASP component analysis platform for software supply chain risk reduction |
+| [slsa](https://github.com/slsa-framework/slsa) | ⭐ 1.8k | HTML | Framework defining supply-chain security levels for software artifacts |
+| [murphysec](https://github.com/murphysecurity/murphysec) | ⭐ 1.8k | Go | Open source SCA tool for dependency vulnerability detection |
+| [OpenSCA-cli](https://github.com/XmirrorSecurity/OpenSCA-cli) | ⭐ 1.1k | Go | Open source SCA with SBOM generation and license compliance checking |
 | [rekor](https://github.com/sigstore/rekor) | ⭐ 1.1k | Go | Transparency log for software supply chain provenance and security verification |
 | [gitsign](https://github.com/sigstore/gitsign) | ⭐ 1.1k | Go | Keyless Git commit signing using Sigstore for secure software development |
+| [in-toto](https://github.com/in-toto/in-toto) | ⭐ 982 | Python | Framework for protecting software supply chain integrity with attestations |
 | [fulcio](https://github.com/sigstore/fulcio) | ⭐ 814 | Go | OIDC-based PKI certificate authority for keyless code signing infrastructure |
+| [cargo-vet](https://github.com/mozilla/cargo-vet) | ⭐ 797 | Rust | Mozilla's supply-chain security auditing tool for Rust dependencies |
+| [chain-bench](https://github.com/aquasecurity/chain-bench) | ⭐ 770 | Go | CIS-based compliance auditing for software supply chain security |
+| [npm-security-best-practices](https://github.com/bodadotsh/npm-security-best-practices) | ⭐ 765 | — | Best practices guide for NPM supply chain attack prevention |
+| [go-tuf](https://github.com/theupdateframework/go-tuf) | ⭐ 697 | Go | Go implementation of The Update Framework for secure software updates |
+| [packj](https://github.com/ossillate-inc/packj) | ⭐ 685 | Python | Malicious dependency detection for preventing supply chain attacks |
+| [chainloop](https://github.com/chainloop-dev/chainloop) | ⭐ 539 | Go | SDLC evidence store with SBOM management and supply chain attestations |
+| [witness](https://github.com/in-toto/witness) | ⭐ 519 | Go | Pluggable framework for software artifact provenance verification |
+| [minder](https://github.com/mindersec/minder) | ⭐ 380 | Go | Comprehensive software supply chain security management platform |
 | [sigstore-python](https://github.com/sigstore/sigstore-python) | ⭐ 316 | Python | Python client for Sigstore software supply chain security and code signing |
 | [malicious-software-packages-dataset](https://github.com/DataDog/malicious-software-packages-dataset) | ⭐ 315 | Python | Human-vetted dataset of malicious software packages for supply chain security research |
+| [chains](https://github.com/tektoncd/chains) | ⭐ 270 | Go | Supply chain security integration for Tekton CI/CD pipelines |
+| [sbomnix](https://github.com/tiiuae/sbomnix) | ⭐ 247 | Python | Nix-focused SBOM generation and supply chain security utilities |
+| [macaron](https://github.com/oracle/macaron) | ⭐ 189 | Python | Oracle's extensible supply-chain security analysis framework supporting multiple build systems |
+| [i-probably-didnt-backdoor-this](https://github.com/kpcyrd/i-probably-didnt-backdoor-this) | ⭐ 160 | Dockerfile | Practical experiment on supply-chain security using reproducible builds |
+| [preflight](https://github.com/SpectralOps/preflight) | ⭐ 156 | Go | Tool to verify scripts and executables against supply chain attacks |
+| [in-toto-golang](https://github.com/in-toto/in-toto-golang) | ⭐ 146 | Go | Go implementation of in-toto framework for software supply chain integrity |
+| [maloss](https://github.com/osssanitizer/maloss) | ⭐ 136 | Java | Research tool for measuring supply chain attacks on package managers |
 
 ## 🤖 AI & Agents
 
@@ -404,11 +442,12 @@
 | [superpowers](https://github.com/obra/superpowers) | ⭐ 103.6k | Shell | Agentic skills framework for software development methodology with practical approach |
 | [skills](https://github.com/anthropics/skills) | ⭐ 99.4k | Python | Official Anthropic repository for agent skills development and examples |
 | [whisper](https://github.com/openai/whisper) | ⭐ 96.4k | Python | OpenAI's robust speech recognition system using large-scale supervision |
-| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ⭐ 94.8k | JavaScript | Agent harness optimization system for Claude Code with skills and memory management |
+| [everything-claude-code](https://github.com/affaan-m/everything-claude-code) | ⭐ 95.1k | JavaScript | Agent harness optimization system for Claude Code with skills and memory management |
 | [agency-agents](https://github.com/msitarzewski/agency-agents) | ⭐ 58.5k | Shell | Complete AI agency framework with specialized agents for different business roles |
 | [nanoGPT](https://github.com/karpathy/nanoGPT) | ⭐ 55.4k | Python | Karpathy's minimal GPT training implementation, perfect for learning and experimentation |
 | [ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | ⭐ 47.6k | Python | AI skill for professional UI/UX design intelligence across multiple platforms |
 | [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills) | ⭐ 40.6k | — | Curated collection of 5400+ OpenClaw agent skills categorized and filtered |
+| [claude-mem](https://github.com/thedotmack/claude-mem) | ⭐ 39.2k | TypeScript | Claude Code plugin for AI-powered memory and context injection in coding |
 | [MiroFish](https://github.com/666ghj/MiroFish) | ⭐ 38.6k | Python | Multi-agent swarm intelligence engine for prediction and social analysis |
 | [learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ⭐ 35.4k | TypeScript | Educational Claude Code agent harness built from scratch for learning AI agents |
 | [AstrBot](https://github.com/AstrBotDevs/AstrBot) | ⭐ 26.4k | Python | Multi-platform agentic chatbot infrastructure with LLM integration and plugins |
@@ -419,6 +458,7 @@
 | [Personal_AI_Infrastructure](https://github.com/danielmiessler/Personal_AI_Infrastructure) | ⭐ 10.3k | TypeScript | Agentic AI infrastructure platform for augmenting human productivity and capabilities |
 | [MONAI](https://github.com/Project-MONAI/MONAI) | ⭐ 8.0k | Python | Healthcare imaging AI toolkit from Project MONAI for medical image processing |
 | [craft-agents-oss](https://github.com/lukilabs/craft-agents-oss) | ⭐ 3.3k | TypeScript | Open-source AI agent crafting framework (minimal description available) |
+| [metorial](https://github.com/metorial/metorial) | ⭐ 3.2k | TypeScript | AI model integration platform with 600+ services using Model Context Protocol |
 | [Maestro](https://github.com/RunMaestro/Maestro) | ⭐ 2.6k | TypeScript | Command center for orchestrating and managing multiple AI agents |
 | [MetaClaw](https://github.com/aiming-lab/MetaClaw) | ⭐ 2.3k | Python | Conversational agent that learns and evolves through continual learning and meta-learning |
 | [agentic-context-engine](https://github.com/kayba-ai/agentic-context-engine) | ⭐ 2.1k | Python | Context engine enabling agents to learn from experience with memory management |
@@ -439,11 +479,15 @@
 | [CL4R1T4S](https://github.com/elder-plinius/CL4R1T4S) | ⭐ 13.9k | — | Leaked system prompts from major AI systems for transparency and security research |
 | [PentestGPT](https://github.com/GreyDGL/PentestGPT) | ⭐ 12.2k | Python | LLM-powered automated penetration testing framework for security assessments |
 | [cai](https://github.com/aliasrobotics/cai) | ⭐ 7.5k | Python | AI Security framework for cybersecurity applications and LLM pentesting |
+| [microsandbox](https://github.com/zerocore-ai/microsandbox) | ⭐ 5.0k | Rust | Secure local-first sandboxes for AI agents with cross-platform support |
 | [Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | ⭐ 3.6k | Python | Structured cybersecurity skills dataset for AI agents mapped to MITRE ATT&CK |
 | [PyRIT](https://github.com/Azure/PyRIT) | ⭐ 3.6k | Python | Risk identification framework for red teaming and testing generative AI systems |
 | [OpenShell](https://github.com/NVIDIA/OpenShell) | ⭐ 3.0k | Rust | NVIDIA's secure runtime environment for autonomous AI agents with safety controls |
 | [validation-benchmarks](https://github.com/xbow-engineering/validation-benchmarks) | ⭐ 525 | PHP | AI security validation benchmarks for testing AI model safety and security |
+| [model-transparency](https://github.com/sigstore/model-transparency) | ⭐ 225 | Python | Machine learning model supply chain security with Sigstore integration |
 | [h1-brain](https://github.com/PatrikFehrenbach/h1-brain) | ⭐ 211 | Python | MCP server connecting AI assistants to HackerOne for automated bug bounty hunting |
+| [watchtower](https://github.com/bosch-aisecurity-aishield/watchtower) | ⭐ 202 | PureBasic | AI model vulnerability scanner for ML supply chain security |
+| [agentseal](https://github.com/AgentSeal/agentseal) | ⭐ 141 | Python | Security toolkit for AI agents - scan, monitor, test prompt injection, audit MCP servers |
 | [CIPHER](https://github.com/defconxt/CIPHER) | ⭐ 1 | JavaScript | Claude-integrated security engineering assistant for privacy and hardening |
 
 ### ai-tools
@@ -459,7 +503,7 @@
 | [n8n](https://github.com/n8n-io/n8n) | ⭐ 180.4k | TypeScript | Visual workflow automation platform with native AI capabilities and 400+ integrations |
 | [autoresearch](https://github.com/karpathy/autoresearch) | ⭐ 48.5k | Python | Karpathy's autonomous research AI agents for single-GPU training experiments |
 | [agents](https://github.com/wshobson/agents) | ⭐ 31.9k | Python | Multi-agent orchestration framework for Claude Code with intelligent automation |
-| [paperclip](https://github.com/paperclipai/paperclip) | ⭐ 31.2k | TypeScript | Open-source orchestration platform for autonomous business operations |
+| [paperclip](https://github.com/paperclipai/paperclip) | ⭐ 31.3k | TypeScript | Open-source orchestration platform for autonomous business operations |
 | [Jobs_Applier_AI_Agent_AIHawk](https://github.com/feder-cr/Jobs_Applier_AI_Agent_AIHawk) | ⭐ 29.5k | Python | AI-powered job application automation agent using GPT and web scraping |
 | [agent-browser](https://github.com/vercel-labs/agent-browser) | ⭐ 24.1k | Rust | Browser automation CLI specifically designed for AI agent workflows in Rust |
 | [browser](https://github.com/lightpanda-io/browser) | ⭐ 23.4k | Zig | Headless browser specifically designed for AI automation and web scraping tasks |
@@ -471,9 +515,10 @@
 
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
-| [opencode](https://github.com/anomalyco/opencode) | ⭐ 127.5k | TypeScript | Open source coding agent for automated software development tasks |
+| [opencode](https://github.com/anomalyco/opencode) | ⭐ 127.6k | TypeScript | Open source coding agent for automated software development tasks |
 | [claude-code](https://github.com/anthropics/claude-code) | ⭐ 81.0k | Shell | Terminal-based AI coding assistant that understands codebases and handles git workflows |
 | [codex](https://github.com/openai/codex) | ⭐ 66.8k | Rust | Lightweight terminal-based coding agent from OpenAI |
+| [cline](https://github.com/cline/cline) | ⭐ 59.2k | TypeScript | Autonomous coding agent for IDEs with file creation and command execution |
 | [get-shit-done](https://github.com/gsd-build/get-shit-done) | ⭐ 38.2k | JavaScript | Meta-prompting framework for Claude Code with spec-driven development approach |
 | [pi-mono](https://github.com/badlogic/pi-mono) | ⭐ 26.7k | TypeScript | AI agent toolkit with coding CLI, unified LLM API, and web interfaces |
 | [nanoclaw](https://github.com/qwibitai/nanoclaw) | ⭐ 24.8k | TypeScript | Containerized AI assistant with multi-messenger support and memory |
@@ -493,7 +538,8 @@
 | [ChatGPT](https://github.com/lencx/ChatGPT) | ⭐ 54.4k | Rust | Cross-platform ChatGPT desktop app with note-taking features |
 | [nanochat](https://github.com/karpathy/nanochat) | ⭐ 49.9k | Python | Budget-conscious ChatGPT alternative optimized for cost efficiency |
 | [litellm](https://github.com/BerriAI/litellm) | ⭐ 39.9k | Python | Universal LLM API gateway with cost tracking and guardrails for 100+ providers |
-| [gstack](https://github.com/garrytan/gstack) | ⭐ 35.6k | TypeScript | Opinionated Claude Code setup for CEO, Designer, Eng Manager roles |
+| [gstack](https://github.com/garrytan/gstack) | ⭐ 35.8k | TypeScript | Opinionated Claude Code setup for CEO, Designer, Eng Manager roles |
+| [LibreChat](https://github.com/danny-avila/LibreChat) | ⭐ 34.8k | TypeScript | Enhanced ChatGPT clone with multiple AI providers and agent capabilities |
 | [github-mcp-server](https://github.com/github/github-mcp-server) | ⭐ 28.1k | Go | GitHub's official Model Context Protocol server for AI integration |
 | [Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM) | ⭐ 26.5k | — | Comprehensive curated list of LLM resources, papers, and tools |
 | [shell_gpt](https://github.com/TheR1D/shell_gpt) | ⭐ 11.9k | Python | Command-line productivity tool powered by GPT and other LLMs for task automation |
@@ -507,6 +553,7 @@
 | Tool | Stars | Language | Description |
 |------|------:|----------|-------------|
 | [prompts.chat](https://github.com/f/prompts.chat) | ⭐ 153.7k | HTML | Community platform for sharing and discovering AI prompts and techniques |
+| [system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) | ⭐ 132.6k | — | Collection of AI system prompts and models from popular coding tools |
 | [Fabric](https://github.com/danielmiessler/Fabric) | ⭐ 40.1k | Go | Modular AI framework with crowdsourced prompts for human augmentation |
 | [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) | ⭐ 20.1k | HTML | Best practices and patterns for Claude AI coding and prompt engineering |
 | [impeccable](https://github.com/pbakaus/impeccable) | ⭐ 12.0k | JavaScript | Design language framework for improving AI design capabilities and outputs |
@@ -604,7 +651,7 @@
 | [ui](https://github.com/shadcn-ui/ui) | ⭐ 110.3k | TypeScript | Modern React component library with accessible design and framework flexibility |
 | [godot](https://github.com/godotengine/godot) | ⭐ 108.2k | C++ | Multi-platform 2D/3D game engine for cross-platform development |
 | [playwright](https://github.com/microsoft/playwright) | ⭐ 84.7k | TypeScript | Cross-browser testing framework for web automation and E2E testing |
-| [spec-kit](https://github.com/github/spec-kit) | ⭐ 79.5k | Python | GitHub toolkit for spec-driven development with AI integration |
+| [spec-kit](https://github.com/github/spec-kit) | ⭐ 79.6k | Python | GitHub toolkit for spec-driven development with AI integration |
 | [tesseract](https://github.com/tesseract-ocr/tesseract) | ⭐ 73.0k | C++ | Industry-standard OCR engine for extracting text from images and documents |
 | [astro](https://github.com/withastro/astro) | ⭐ 57.7k | TypeScript | Modern web framework for content-driven static and hybrid sites |
 | [html5-boilerplate](https://github.com/h5bp/html5-boilerplate) | ⭐ 57.4k | JavaScript | Professional HTML5 boilerplate with best practices for robust web development |
@@ -644,6 +691,7 @@
 | [ansible](https://github.com/ansible/ansible) | ⭐ 68.4k | Python | Agentless IT automation platform for configuration management and deployment |
 | [localstack](https://github.com/localstack/localstack) | ⭐ 64.7k | Python | Local AWS cloud stack emulator for offline development and testing |
 | [traefik](https://github.com/traefik/traefik) | ⭐ 62.3k | Go | Cloud-native application proxy and load balancer with automatic service discovery |
+| [Docker-OSX](https://github.com/sickcodes/Docker-OSX) | ⭐ 52.3k | Shell | Run macOS VM in Docker containers for CI/CD and security research |
 | [lazydocker](https://github.com/jesseduffield/lazydocker) | ⭐ 50.3k | Go | Simple terminal UI for managing Docker containers and images |
 | [terraform](https://github.com/hashicorp/terraform) | ⭐ 48.0k | Go | Infrastructure as code tool for safely managing cloud resources |
 | [awesome-compose](https://github.com/docker/awesome-compose) | ⭐ 44.5k | HTML | Collection of Docker Compose examples for development and deployment |
@@ -728,6 +776,7 @@
 | [docker-swag](https://github.com/linuxserver/docker-swag) | ⭐ 3.6k | Dockerfile | Nginx reverse proxy with Let's Encrypt and fail2ban intrusion prevention |
 | [docker-volume-backup](https://github.com/offen/docker-volume-backup) | ⭐ 3.4k | Go | Backup Docker volumes to S3, WebDAV, Azure, Dropbox, and other storage |
 | [dashdot](https://github.com/MauriceNino/dashdot) | ⭐ 3.4k | TypeScript | Modern server dashboard for monitoring system resources and services |
+| [ContainerSSH](https://github.com/ContainerSSH/ContainerSSH) | ⭐ 3.0k | Go | On-demand container launcher over SSH for development and testing |
 | [ddns-updater](https://github.com/qdm12/ddns-updater) | ⭐ 2.9k | Go | Containerized dynamic DNS updater with web UI for multiple providers |
 | [selfhosted-apps-docker](https://github.com/DoTheEvo/selfhosted-apps-docker) | ⭐ 2.8k | Shell | Guide for self-hosting applications with Docker examples |
 | [portainer-templates](https://github.com/Lissy93/portainer-templates) | ⭐ 2.8k | Python | Curated collection of 500+ one-click Portainer application templates |
@@ -783,6 +832,7 @@
 |------|------:|----------|-------------|
 | [pwntools](https://github.com/Gallopsled/pwntools) | ⭐ 13.3k | Python | Popular CTF framework and exploit development library with extensive tooling |
 | [juice-shop](https://github.com/juice-shop/juice-shop) | ⭐ 12.7k | TypeScript | OWASP Juice Shop - intentionally insecure web app for security training and CTFs |
+| [kubernetes-goat](https://github.com/madhuakula/kubernetes-goat) | ⭐ 5.4k | HTML | Vulnerable by design Kubernetes cluster for hands-on security training |
 
 ### Documentation
 
@@ -849,8 +899,10 @@
 | [Linux-Privilege-Escalation](https://github.com/Ignitetechnologies/Linux-Privilege-Escalation) | ⭐ 870 | — | Linux privilege escalation cheatsheet for OSCP and CTF preparation |
 | [hacktricks-cloud](https://github.com/HackTricks-wiki/hacktricks-cloud) | ⭐ 736 | CSS | Cloud-focused security knowledge base and penetration testing guide |
 | [thgtoa](https://github.com/Anon-Planet/thgtoa) | ⭐ 680 | — | Comprehensive guide for online anonymity, OpSec, and privacy practices |
+| [awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security) | ⭐ 350 | — | Comprehensive resource compilation for supply chain security |
 | [wiki](https://github.com/forensicswiki/wiki) | ⭐ 321 | — | Community wiki dedicated to digital forensics knowledge and techniques |
 | [awesome-cloud-sec](https://github.com/RyanJarv/awesome-cloud-sec) | ⭐ 150 | — | Curated collection of cloud security tools and resources |
+| [Software-Supply-Chain-Security](https://github.com/vishalgarg-sec/Software-Supply-Chain-Security) | ⭐ 144 | — | Comprehensive compilation of Software Supply Chain Security resources and tools |
 | [python-for-coding-interviews](https://github.com/mmicu/python-for-coding-interviews) | ⭐ 138 | Dockerfile | Python algorithms and data structures reference for coding interviews |
 
 ### Training Platforms
@@ -863,6 +915,7 @@
 | [OSCE3-Complete-Guide](https://github.com/JoasASantos/OSCE3-Complete-Guide) | ⭐ 3.8k | — | Complete study guide for OSCE3 certification tracks (OSWE, OSEP, OSED, OSEE) |
 | [Fuzzing101](https://github.com/antonio-morales/Fuzzing101) | ⭐ 3.7k | — | Step-by-step fuzzing tutorial covering AFL, fuzzilli and other fuzzing techniques |
 | [cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat) | ⭐ 3.5k | Python | Vulnerable AWS environment deployment tool for cloud security training |
+| [secure-repository-supply-chain](https://github.com/skills/secure-repository-supply-chain) | ⭐ 183 | C# | GitHub Skills course on securing supply chain and managing dependencies |
 
 ## 📦 Archived
 
@@ -871,13 +924,16 @@ These projects are no longer actively maintained.
 | Tool | Stars | Note |
 |------|------:|------|
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | ⭐ 6.3k | MenuBar ChatGPT client for quick AI access on macOS |
+| [fhe-toolkit-linux](https://github.com/IBM/fhe-toolkit-linux) | ⭐ 1.5k | IBM homomorphic encryption toolkit for secure computation on encrypted data |
 | [SimpleXPCApp](https://github.com/securing/SimpleXPCApp) | ⭐ 108 | Secure XPC helper implementation example for macOS development |
 | [overseerr](https://github.com/sct/overseerr) | ⭐ 5.0k | Request management and media discovery tool for Plex ecosystem |
 | [blackmagic](https://github.com/blackmagic-debug/blackmagic) | ⭐ 3.7k | In-application debugger for ARM Cortex and RISC-V processor development |
 | [terrascan](https://github.com/tenable/terrascan) | ⭐ 5.2k | Multi-cloud IaC security scanner for compliance and vulnerability detection |
+| [runtime](https://github.com/kata-containers/runtime) | ⭐ 2.1k | Kata Containers v1.x runtime for secure container virtualization |
 | [PrintSpoofer](https://github.com/itm4n/PrintSpoofer) | ⭐ 2.2k | Windows privilege escalation tool exploiting Print Spooler service impersonation |
 | [DumpsterDiver](https://github.com/securing/DumpsterDiver) | ⭐ 1.0k | Secret discovery tool for scanning various file types for sensitive data |
 | [awesome-linux](https://github.com/inputsh/awesome-linux) | ⭐ 4.9k | Linux projects and resources for system administration |
+| [ssc-reading-list](https://github.com/chainguard-dev/ssc-reading-list) | ⭐ 365 | Curated reading list for software supply-chain security topics |
 
 ---
 
