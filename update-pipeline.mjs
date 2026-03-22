@@ -154,11 +154,12 @@ async function discoverRepos(existingRepos) {
   // 2. Check user's new stars
   console.log('\n  Checking new stars...')
   try {
-    const starsJson = execSync('gh api user/starred --paginate --jq \'[.[] | {name: .name, full_name: .full_name, url: .html_url, description: (.description // ""), language: (.language // ""), stars: .stargazers_count, topics: (.topics // []), archived: .archived, updated_at: .updated_at, homepage: (.homepage // "")}]\'', {
+    const starsRaw = execSync('gh api user/starred --paginate --jq \'.[] | {name: .name, full_name: .full_name, url: .html_url, description: (.description // ""), language: (.language // ""), stars: .stargazers_count, topics: (.topics // []), archived: .archived, updated_at: .updated_at, homepage: (.homepage // "")}\'', {
       encoding: 'utf8',
       maxBuffer: 10 * 1024 * 1024,
     })
-    const stars = JSON.parse(starsJson)
+    // --paginate + --jq outputs one JSON object per line (NDJSON)
+    const stars = starsRaw.trim().split('\n').filter(Boolean).map(line => JSON.parse(line))
     for (const repo of stars) {
       if (!existingRepos.has(repo.full_name)) {
         candidates.set(repo.full_name, repo)
