@@ -16,6 +16,9 @@ const STARS_FILE = resolve(__dirname, 'stars-parsed.json')
 const TOOLS_FILE = resolve(__dirname, 'tools.json')
 const DRY_RUN = process.argv.includes('--dry-run')
 
+// Star threshold — only seed repos with meaningful community validation
+const MIN_STARS_SEED = 250
+
 // Categories and subcategories
 const TAXONOMY = {
   'offensive-security': [
@@ -192,9 +195,13 @@ async function main() {
   }
   const existingRepos = new Set(existing.map((t) => t.repo))
 
-  // Filter out already-processed repos
-  const newStars = stars.filter((s) => !existingRepos.has(s.full_name))
-  console.log(`${newStars.length} new repos to categorize\n`)
+  // Filter out already-processed repos and repos below star threshold
+  const newStars = stars.filter((s) => !existingRepos.has(s.full_name) && (s.stars || 0) >= MIN_STARS_SEED)
+  const belowThreshold = stars.filter((s) => !existingRepos.has(s.full_name) && (s.stars || 0) < MIN_STARS_SEED)
+  console.log(`${newStars.length} new repos to categorize (>= ${MIN_STARS_SEED} stars)`)
+  if (belowThreshold.length > 0) {
+    console.log(`${belowThreshold.length} starred repos skipped (below ${MIN_STARS_SEED} star threshold)`)
+  }
 
   if (newStars.length === 0) {
     console.log('Nothing new to process.')

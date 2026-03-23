@@ -73,8 +73,9 @@ function formatStars(n) {
 
 function generate() {
   const tools = JSON.parse(readFileSync(TOOLS_FILE, 'utf8'))
-  const activeTools = tools.filter((t) => t.status !== 'archived')
-  const archivedTools = tools.filter((t) => t.status === 'archived')
+  const activeTools = tools.filter((t) => t.status === 'active')
+  const staleTools = tools.filter((t) => t.status === 'stale')
+  const archivedTools = tools.filter((t) => t.status === 'archived' || t.status === 'unavailable')
 
   // Group by category, then subcategory
   const grouped = {}
@@ -147,6 +148,20 @@ function generate() {
     }
   }
 
+  // Stale section (not updated in 2+ years)
+  if (staleTools.length > 0) {
+    lines.push('## ⚠️ Stale')
+    lines.push('')
+    lines.push('These projects have not been updated in over 2 years. They may still be useful but should be evaluated carefully.')
+    lines.push('')
+    lines.push('| Tool | Stars | Last Updated | Note |')
+    lines.push('|------|------:|:------------:|------|')
+    for (const t of staleTools.sort((a, b) => b.stars - a.stars)) {
+      lines.push(`| [${t.name}](${t.url}) | ⭐ ${formatStars(t.stars)} | ${t.updated || '?'} | ${t.note || t.description.slice(0, 80)} |`)
+    }
+    lines.push('')
+  }
+
   // Archived section
   if (archivedTools.length > 0) {
     lines.push('## 📦 Archived')
@@ -186,10 +201,11 @@ function generate() {
   lines.push('')
   lines.push('| Component | Description |')
   lines.push('|-----------|-------------|')
-  lines.push('| **Discovery** | Searches GitHub API across 30 security/AI/dev topic queries, plus syncs starred repos |')
+  lines.push('| **Discovery** | Searches GitHub API across 30 security/AI/dev topic queries (≥500 stars), plus syncs starred repos (≥250 stars) |')
   lines.push('| **Deduplication** | Checks against existing `tools.json` by repo full name |')
+  lines.push('| **Quality gate** | Star thresholds filter out unvetted repos: 500+ for search, 250+ for starred, 200+ for existing |')
   lines.push('| **Categorization** | Claude API (`claude-sonnet-4-20250514`) assigns category, subcategory, and editorial note |')
-  lines.push('| **Metadata refresh** | Rotates through 1/4 of all tools per run, updating star counts and archived status |')
+  lines.push('| **Metadata refresh** | Rotates through 1/4 of all tools per run, updating star counts, archived/stale status, and pruning sub-threshold entries |')
   lines.push('| **Rate limiting** | 15s between Claude API batches, 60s backoff + retry on 429s, 3s between GitHub search calls |')
   lines.push('| **Website sync** | Vercel deploy hook triggers rebuild; prebuild fetches `tools.json` from this repo |')
   lines.push('')

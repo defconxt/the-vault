@@ -59,8 +59,12 @@ const SEARCH_QUERIES = [
   'terraform security',
 ]
 
-// Minimum stars to consider a repo
-const MIN_STARS = 100
+// Star thresholds — we want established, vetted tools that serve the security community.
+// Low-star repos risk polluting the vault with unvetted, abandoned, or low-quality content.
+const MIN_STARS_DISCOVER = 500     // Minimum stars for newly discovered repos via search
+const MIN_STARS_STARRED = 250      // Minimum stars for repos from user's starred list (manual curation gets a lower bar)
+const MIN_STARS_EXISTING = 200     // Existing tools below this are pruned on refresh (grandfathered grace)
+const ARCHIVE_STALE_DAYS = 730     // Flag repos with no updates in 2+ years as potentially stale
 
 // Maximum new tools to add per run
 const MAX_NEW_PER_RUN = 50
@@ -125,13 +129,13 @@ async function discoverRepos(existingRepos) {
   const querySubset = SEARCH_QUERIES.sort(() => Math.random() - 0.5).slice(0, 10)
   for (const query of querySubset) {
     console.log(`  Searching: "${query}"...`)
-    const encodedQuery = encodeURIComponent(`${query} stars:>${MIN_STARS}`)
+    const encodedQuery = encodeURIComponent(`${query} stars:>${MIN_STARS_DISCOVER}`)
     const result = ghApi(
       `search/repositories?q=${encodedQuery}&sort=stars&order=desc&per_page=30`
     )
     if (result?.items) {
       for (const repo of result.items) {
-        if (!existingRepos.has(repo.full_name) && repo.stargazers_count >= MIN_STARS) {
+        if (!existingRepos.has(repo.full_name) && repo.stargazers_count >= MIN_STARS_DISCOVER && !repo.archived) {
           candidates.set(repo.full_name, {
             name: repo.name,
             full_name: repo.full_name,
@@ -161,11 +165,11 @@ async function discoverRepos(existingRepos) {
     // --paginate + --jq outputs one JSON object per line (NDJSON)
     const stars = starsRaw.trim().split('\n').filter(Boolean).map(line => JSON.parse(line))
     for (const repo of stars) {
-      if (!existingRepos.has(repo.full_name)) {
+      if (!existingRepos.has(repo.full_name) && repo.stars >= MIN_STARS_STARRED) {
         candidates.set(repo.full_name, repo)
       }
     }
-    console.log(`  Found ${stars.filter(s => !existingRepos.has(s.full_name)).length} new starred repos`)
+    console.log(`  Found ${stars.filter(s => !existingRepos.has(s.full_name) && s.stars >= MIN_STARS_STARRED).length} new starred repos (>= ${MIN_STARS_STARRED} stars)`)
   } catch (e) {
     console.log(`  Stars check failed: ${e.message}`)
   }
@@ -336,6 +340,10 @@ async function refreshMetadata(tools) {
   console.log('Refreshing metadata for existing tools...\n')
   let updated = 0
   let archived = 0
+  let pruned = 0
+  let stale = 0
+  const prunedTools = []
+  const now = Date.now()
 
   // Process in batches via gh api
   for (let i = 0; i < tools.length; i++) {
@@ -357,6 +365,19 @@ async function refreshMetadata(tools) {
           archived++
         }
         tool.updated = data.updated_at?.split('T')[0] || tool.updated
+
+        // Flag repos with no updates in ARCHIVE_STALE_DAYS as stale
+        if (data.pushed_at) {
+          const lastPush = new Date(data.pushed_at).getTime()
+          const daysSinceUpdate = (now - lastPush) / (1000 * 60 * 60 * 24)
+          if (daysSinceUpdate > ARCHIVE_STALE_DAYS && tool.status === 'active') {
+            tool.status = 'stale'
+            stale++
+          }
+        }
+      } else {
+        // Repo may have been deleted or made private
+        tool.status = 'unavailable'
       }
     } catch {
       // skip failed lookups
@@ -366,8 +387,23 @@ async function refreshMetadata(tools) {
     if (i % 10 === 0) await new Promise((r) => setTimeout(r, 1000))
   }
 
-  console.log(`  Updated ${updated} star counts, ${archived} newly archived`)
-  return tools
+  // Prune tools below the existing-tool star threshold
+  const beforeCount = tools.length
+  const kept = tools.filter((t) => {
+    if (t.stars < MIN_STARS_EXISTING) {
+      prunedTools.push(t)
+      return false
+    }
+    return true
+  })
+  pruned = beforeCount - kept.length
+
+  if (pruned > 0) {
+    console.log(`  Pruned ${pruned} tools below ${MIN_STARS_EXISTING} stars:`)
+    prunedTools.forEach((t) => console.log(`    - ${t.repo} (${t.stars} ⭐)`))
+  }
+  console.log(`  Updated ${updated} star counts, ${archived} newly archived, ${stale} flagged stale`)
+  return kept
 }
 
 async function main() {
