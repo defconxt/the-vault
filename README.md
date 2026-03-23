@@ -2,7 +2,7 @@
 
 > A curated, auto-updating collection of security, AI, and development tools. Updated weekly.
 
-**746** tools across **6** categories • Last updated: 2026-03-22
+**714** tools across **6** categories • Last updated: 2026-03-23
 
 🌐 **Browse online**: [blacktemple.net/vault](https://blacktemple.net/vault)
 
@@ -38,7 +38,6 @@
 | [jok3r](https://github.com/koutto/jok3r) | ⭐ 1.1k | HTML | Network and web pentest automation framework with vulnerability exploitation |
 | [Aggressor](https://github.com/k8gege/Aggressor) | ⭐ 1.1k | — | Cobalt Strike extension with large network penetration scanning capabilities |
 | [pyhtools](https://github.com/dmdhrumilmistry/pyhtools) | ⭐ 624 | Python | Comprehensive Python hacking library with network and malware tools |
-| [pupy](https://github.com/AlessandroZ/pupy) | ⭐ 90 | Python | Cross-platform RAT with in-memory execution and low footprint capabilities |
 
 ### Network Attacks
 
@@ -65,7 +64,6 @@
 | [cupp](https://github.com/Mebus/cupp) | ⭐ 5.8k | Python | Generates custom wordlists based on user profiling for password attacks |
 | [Auto_Wordlists](https://github.com/carlospolop/Auto_Wordlists) | ⭐ 1.3k | Python | Automated wordlist generation tool for security testing and brute force |
 | [TREVORspray](https://github.com/blacklanternsecurity/TREVORspray) | ⭐ 1.3k | Python | Modular password spraying tool with threading and proxy support for Office 365 |
-| [SilverBullet-1.4.1-Pro-](https://github.com/v3nom-1337/SilverBullet-1.4.1-Pro-) | ⭐ 19 | — | Multi-proxy account checker tool for credential validation testing |
 
 ### Reconnaissance & OSINT
 
@@ -146,8 +144,6 @@
 | [PowerShell_IPv4NetworkScanner](https://github.com/BornToBeRoot/PowerShell_IPv4NetworkScanner) | ⭐ 431 | PowerShell | Asynchronous IPv4 network scanner written in PowerShell |
 | [back-me-up](https://github.com/Dheerajmadhukar/back-me-up) | ⭐ 229 | Shell | Scans wayback data for sensitive data leaks using regex patterns |
 | [SIGpi](https://github.com/joecupano/SIGpi) | ⭐ 228 | Shell | SIGINT toolkit for radio frequency analysis and amateur radio operations |
-| [safe-harbour](https://github.com/trickest/safe-harbour) | ⭐ 56 | — | Collection of security.txt files from popular domains for responsible disclosure |
-| [DeadDNS](https://github.com/DreyAnd/DeadDNS) | ⭐ 53 | Python | Automated DNS hijacking tool for identifying vulnerable dead DNS records |
 
 ### Red Team
 
@@ -201,8 +197,6 @@
 | [Silver](https://github.com/s0md3v/Silver) | ⭐ 1.0k | Python | Mass IP scanner for identifying vulnerable services across networks |
 | [log4j2burpscanner](https://github.com/f0ng/log4j2burpscanner) | ⭐ 840 | Java | BurpSuite extension for detecting CVE-2021-44228 Log4j2 vulnerabilities |
 | [HellRaiser](https://github.com/m0nad/HellRaiser) | ⭐ 573 | Ruby | Nmap-based vulnerability scanner correlating CPEs with CVE database |
-| [subdover](https://github.com/PushpenderIndia/subdover) | ⭐ 108 | Python | Multithreaded subdomain takeover vulnerability scanner with extensive fingerprints |
-| [cloudjack](https://github.com/prevade/cloudjack) | ⭐ 86 | Python | AWS Route53/CloudFront vulnerability assessment and exploitation tool |
 
 ### Web App Testing
 
@@ -247,8 +241,6 @@
 | [AttackSurfaceAnalyzer](https://github.com/microsoft/AttackSurfaceAnalyzer) | ⭐ 2.9k | C# | Microsoft tool for analyzing OS security configuration changes during software installs |
 | [hardening](https://github.com/konstruktoid/hardening) | ⭐ 1.7k | Shell | Ubuntu hardening scripts with systemd integration for security compliance |
 | [UBUNTU22-CIS](https://github.com/ansible-lockdown/UBUNTU22-CIS) | ⭐ 248 | YAML | Automated CIS benchmark compliance remediation for Ubuntu 22 using Ansible |
-| [UBUNTU20-CIS](https://github.com/ansible-lockdown/UBUNTU20-CIS) | ⭐ 183 | YAML | Automated CIS benchmark compliance remediation for Ubuntu 20 using Ansible |
-| [ansible-cis-ubuntu-2204](https://github.com/MVladislav/ansible-cis-ubuntu-2204) | ⭐ 37 | YAML | Ansible role for automated CIS Ubuntu 22.04 compliance and hardening |
 
 ### Endpoint Security
 
@@ -289,7 +281,6 @@
 | [hindsight](https://github.com/obsidianforensics/hindsight) | ⭐ 1.4k | Python | Browser forensics tool for Chrome/Chromium analyzing browsing history and artifacts |
 | [artifacts](https://github.com/ForensicArtifacts/artifacts) | ⭐ 1.2k | Python | Comprehensive repository of digital forensics artifacts and definitions |
 | [dfiq](https://github.com/google/dfiq) | ⭐ 301 | Python | Collection of investigative questions and approaches for digital forensics |
-| [Foremost](https://github.com/gerryamurphy/Foremost) | ⭐ 40 | C | File recovery tool using headers/footers analysis for digital forensics investigations |
 
 ### Malware Analysis
 
@@ -378,7 +369,6 @@
 | [cloud-nuke](https://github.com/gruntwork-io/cloud-nuke) | ⭐ 3.1k | Go | Tool for cleaning up cloud resources by deleting all resources in accounts |
 | [cloudsplaining](https://github.com/salesforce/cloudsplaining) | ⭐ 2.2k | JavaScript | AWS IAM privilege escalation and least privilege violation assessment tool |
 | [PurplePanda](https://github.com/carlospolop/PurplePanda) | ⭐ 719 | Python | Multi-cloud privilege escalation path discovery tool for GCP, GitHub, Kubernetes |
-| [magpie](https://github.com/openraven/magpie) | ⭐ 199 | Java | CSPM focused on cloud ransomware and supply chain attack analysis |
 
 ### Container Security
 
@@ -402,7 +392,6 @@
 | [bane](https://github.com/genuinetools/bane) | ⭐ 1.2k | Go | Custom AppArmor profile generator for enhanced Docker container security |
 | [images](https://github.com/chainguard-images/images) | ⭐ 664 | HCL | Distroless container images with minimal attack surface and security hardening |
 | [imgcrypt](https://github.com/containerd/imgcrypt) | ⭐ 424 | Go | OCI container image encryption package for securing container workloads |
-| [image-reflector-controller](https://github.com/fluxcd/image-reflector-controller) | ⭐ 120 | Go | GitOps component that scans container registries for image updates and vulnerabilities |
 
 ### IaC Security
 
@@ -413,7 +402,6 @@
 | [kyverno](https://github.com/kyverno/kyverno) | ⭐ 7.5k | Go | Policy-as-code engine for Kubernetes security and compliance management |
 | [tfsec](https://github.com/aquasecurity/tfsec) | ⭐ 7.0k | Go | Terraform security scanner now integrated into Trivy for IaC analysis |
 | [awesome-tf](https://github.com/shuaibiyy/awesome-tf) | ⭐ 6.3k | — | Terraform and OpenTofu resources for infrastructure as code |
-| [terraform-provider-harbor](https://github.com/goharbor/terraform-provider-harbor) | ⭐ 147 | Go | Terraform provider for Harbor container registry infrastructure as code |
 
 ### SAST / DAST / SCA
 
@@ -451,7 +439,6 @@
 | [op-vscode](https://github.com/1Password/op-vscode) | ⭐ 253 | TypeScript | 1Password integration for VS Code enabling secure credential management |
 | [connect-sdk-python](https://github.com/1Password/connect-sdk-python) | ⭐ 223 | Python | Python SDK for 1Password Connect API for programmatic secrets management |
 | [connect](https://github.com/1Password/connect) | ⭐ 206 | — | 1Password Connect server for programmatic access to 1Password secrets in automation |
-| [yk-csr-generator](https://github.com/SheepReaper/yk-csr-generator) | ⭐ 7 | C# | CLI tool for generating Certificate Signing Requests using YubiKey hardware tokens |
 
 ### Supply Chain
 
@@ -479,11 +466,6 @@
 | [malicious-software-packages-dataset](https://github.com/DataDog/malicious-software-packages-dataset) | ⭐ 315 | Python | Human-vetted dataset of malicious software packages for supply chain security research |
 | [chains](https://github.com/tektoncd/chains) | ⭐ 270 | Go | Supply chain security integration for Tekton CI/CD pipelines |
 | [sbomnix](https://github.com/tiiuae/sbomnix) | ⭐ 247 | Python | Nix-focused SBOM generation and supply chain security utilities |
-| [macaron](https://github.com/oracle/macaron) | ⭐ 189 | Python | Oracle's extensible supply-chain security analysis framework supporting multiple build systems |
-| [i-probably-didnt-backdoor-this](https://github.com/kpcyrd/i-probably-didnt-backdoor-this) | ⭐ 160 | Dockerfile | Practical experiment on supply-chain security using reproducible builds |
-| [preflight](https://github.com/SpectralOps/preflight) | ⭐ 156 | Go | Tool to verify scripts and executables against supply chain attacks |
-| [in-toto-golang](https://github.com/in-toto/in-toto-golang) | ⭐ 146 | Go | Go implementation of in-toto framework for software supply chain integrity |
-| [maloss](https://github.com/osssanitizer/maloss) | ⭐ 136 | Java | Research tool for measuring supply chain attacks on package managers |
 
 ## 🤖 AI & Agents
 
@@ -541,8 +523,6 @@
 | [model-transparency](https://github.com/sigstore/model-transparency) | ⭐ 225 | Python | Machine learning model supply chain security with Sigstore integration |
 | [h1-brain](https://github.com/PatrikFehrenbach/h1-brain) | ⭐ 211 | Python | MCP server connecting AI assistants to HackerOne for automated bug bounty hunting |
 | [watchtower](https://github.com/bosch-aisecurity-aishield/watchtower) | ⭐ 202 | PureBasic | AI model vulnerability scanner for ML supply chain security |
-| [agentseal](https://github.com/AgentSeal/agentseal) | ⭐ 141 | Python | Security toolkit for AI agents - scan, monitor, test prompt injection, audit MCP servers |
-| [CIPHER](https://github.com/defconxt/CIPHER) | ⭐ 1 | JavaScript | Claude-integrated security engineering assistant for privacy and hardening |
 
 ### ai-tools
 
@@ -627,7 +607,6 @@
 | [star-history](https://github.com/star-history/star-history) | ⭐ 8.7k | TypeScript | Visualize GitHub star growth history — great for evaluating project momentum |
 | [shlink](https://github.com/shlinkio/shlink) | ⭐ 4.8k | PHP | Self-hosted URL shortener with REST API for link management |
 | [notion-py](https://github.com/jamalex/notion-py) | ⭐ 4.4k | Python | Python API client for Notion workspace automation and integration |
-| [Daemon](https://github.com/danielmiessler/Daemon) | ⭐ 175 | TypeScript | Open-source personal API framework for custom integrations |
 
 ### Build Tools
 
@@ -671,8 +650,6 @@
 | [kubectl](https://github.com/kubernetes/kubectl) | ⭐ 3.2k | Go | Command-line interface tool for managing Kubernetes clusters and resources |
 | [StreamController](https://github.com/StreamController/StreamController) | ⭐ 974 | Python | Elegant Linux app for Stream Deck with plugin support |
 | [streamdeck-linux-gui](https://github.com/streamdeck-linux-gui/streamdeck-linux-gui) | ⭐ 401 | Python | Linux UI for Elgato Stream Deck hardware control |
-| [Widgets-for-UniGetUI](https://github.com/Devolutions/Widgets-for-UniGetUI) | ⭐ 170 | C# | Windows widgets for package manager UI, extends system package management capabilities |
-| [BrewUp](https://github.com/defconxt/BrewUp) | ⭐ 1 | Shell | Homebrew package manager interface for macOS development environment management |
 
 ### Databases
 
@@ -866,10 +843,6 @@
 | [source-controller](https://github.com/fluxcd/source-controller) | ⭐ 273 | Go | GitOps toolkit for managing source code repositories in Kubernetes deployments |
 | [community.docker](https://github.com/ansible-collections/community.docker) | ⭐ 254 | Python | Ansible collection for Docker container management and orchestration |
 | [npmGrafStats](https://github.com/smilebasti/npmGrafStats) | ⭐ 203 | Python | Exports Nginx Proxy Manager logs to InfluxDB for Grafana visualization |
-| [docker-ddclient](https://github.com/linuxserver/docker-ddclient) | ⭐ 178 | Dockerfile | Docker container for dynamic DNS client management |
-| [docker-netbox](https://github.com/linuxserver/docker-netbox) | ⭐ 125 | Python | Dockerized NetBox deployment for infrastructure management |
-| [BrewUp](https://github.com/fire1ce/BrewUp) | ⭐ 60 | Shell | Automated Homebrew package management and backup for macOS developers |
-| [Eraserr](https://github.com/everettsouthwick/Eraserr) | ⭐ 32 | Python | Media server maintenance automation for cleaning up unwatched content |
 
 ## 📚 Research & Learning
 
@@ -907,7 +880,6 @@
 | [Badges4-README.md-Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile) | ⭐ 13.0k | Markdown | Badge collection for improving GitHub profile documentation |
 | [jekyll-theme-chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) | ⭐ 9.9k | HTML | Responsive Jekyll theme optimized for technical writing and documentation |
 | [webauthn](https://github.com/w3c/webauthn) | ⭐ 1.4k | HTML | W3C Web Authentication API specification for public key credential access |
-| [3os.org](https://github.com/fire1ce/3os.org) | ⭐ 185 | HTML | Technical documentation hub for DevOps, pentesting, and IT professionals |
 
 ### Knowledge Bases
 
@@ -971,9 +943,6 @@
 | [thgtoa](https://github.com/Anon-Planet/thgtoa) | ⭐ 680 | — | Comprehensive guide for online anonymity, OpSec, and privacy practices |
 | [awesome-software-supply-chain-security](https://github.com/bureado/awesome-software-supply-chain-security) | ⭐ 350 | — | Comprehensive resource compilation for supply chain security |
 | [wiki](https://github.com/forensicswiki/wiki) | ⭐ 321 | — | Community wiki dedicated to digital forensics knowledge and techniques |
-| [awesome-cloud-sec](https://github.com/RyanJarv/awesome-cloud-sec) | ⭐ 150 | — | Curated collection of cloud security tools and resources |
-| [Software-Supply-Chain-Security](https://github.com/vishalgarg-sec/Software-Supply-Chain-Security) | ⭐ 144 | — | Comprehensive compilation of Software Supply Chain Security resources and tools |
-| [python-for-coding-interviews](https://github.com/mmicu/python-for-coding-interviews) | ⭐ 138 | Dockerfile | Python algorithms and data structures reference for coding interviews |
 
 ### Training Platforms
 
@@ -986,7 +955,6 @@
 | [Fuzzing101](https://github.com/antonio-morales/Fuzzing101) | ⭐ 3.7k | — | Step-by-step fuzzing tutorial covering AFL, fuzzilli and other fuzzing techniques |
 | [cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat) | ⭐ 3.5k | Python | Vulnerable AWS environment deployment tool for cloud security training |
 | [mutillidae](https://github.com/webpwnized/mutillidae) | ⭐ 1.5k | PHP | Deliberately vulnerable web application for security training |
-| [secure-repository-supply-chain](https://github.com/skills/secure-repository-supply-chain) | ⭐ 183 | C# | GitHub Skills course on securing supply chain and managing dependencies |
 
 ## 📦 Archived
 
@@ -996,7 +964,6 @@ These projects are no longer actively maintained.
 |------|------:|------|
 | [chatgpt-mac](https://github.com/vincelwt/chatgpt-mac) | ⭐ 6.3k | MenuBar ChatGPT client for quick AI access on macOS |
 | [fhe-toolkit-linux](https://github.com/IBM/fhe-toolkit-linux) | ⭐ 1.5k | IBM homomorphic encryption toolkit for secure computation on encrypted data |
-| [SimpleXPCApp](https://github.com/securing/SimpleXPCApp) | ⭐ 108 | Secure XPC helper implementation example for macOS development |
 | [overseerr](https://github.com/sct/overseerr) | ⭐ 5.0k | Request management and media discovery tool for Plex ecosystem |
 | [blackmagic](https://github.com/blackmagic-debug/blackmagic) | ⭐ 3.7k | In-application debugger for ARM Cortex and RISC-V processor development |
 | [datree](https://github.com/datreeio/datree) | ⭐ 6.3k | Kubernetes policy enforcement to prevent misconfigurations in production |
@@ -1037,10 +1004,11 @@ Every Sunday 8AM UTC
 
 | Component | Description |
 |-----------|-------------|
-| **Discovery** | Searches GitHub API across 30 security/AI/dev topic queries, plus syncs starred repos |
+| **Discovery** | Searches GitHub API across 30 security/AI/dev topic queries (≥500 stars), plus syncs starred repos (≥250 stars) |
 | **Deduplication** | Checks against existing `tools.json` by repo full name |
+| **Quality gate** | Star thresholds filter out unvetted repos: 500+ for search, 250+ for starred, 200+ for existing |
 | **Categorization** | Claude API (`claude-sonnet-4-20250514`) assigns category, subcategory, and editorial note |
-| **Metadata refresh** | Rotates through 1/4 of all tools per run, updating star counts and archived status |
+| **Metadata refresh** | Rotates through 1/4 of all tools per run, updating star counts, archived/stale status, and pruning sub-threshold entries |
 | **Rate limiting** | 15s between Claude API batches, 60s backoff + retry on 429s, 3s between GitHub search calls |
 | **Website sync** | Vercel deploy hook triggers rebuild; prebuild fetches `tools.json` from this repo |
 
