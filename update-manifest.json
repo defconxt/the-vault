@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-22T08:19:59.897Z",
+  "lastRun": "2026-03-29T08:23:21.760Z",
   "discoveredRepos": [
     {
       "repo": "DependencyTrack/dependency-track",
@@ -536,6 +536,390 @@
     {
       "repo": "aquasecurity/kube-hunter",
       "added": "2026-03-22"
+    },
+    {
+      "repo": "DefectDojo/django-DefectDojo",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "cilium/tetragon",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Hack-with-Github/Awesome-Hacking",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "ffuf/ffuf",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "maurosoria/dirsearch",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "google/oss-fuzz",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "foundry-rs/foundry",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "spacejam/sled",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "HypothesisWorks/hypothesis",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "TheKingOfDuck/fuzzDicts",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "xmendez/wfuzz",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "AFLplusplus/AFLplusplus",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "google/syzkaller",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "GhostTroops/scan4all",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "secfigo/Awesome-Fuzzing",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "elceef/dnstwist",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "google/clusterfuzz",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "dvyukov/go-fuzz",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "dubzzz/fast-check",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "1N3/IntruderPayloads",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "arainho/awesome-api-security",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "google/honggfuzz",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "rtcatc/Packer-Fuzzer",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "schemathesis/schemathesis",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "six2dez/OneListForAll",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "crytic/echidna",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "trailofbits/algo",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "wuyouzhuguli/SpringAll",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "toniblyx/my-arsenal-of-aws-security-tools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "zhoutaoo/SpringCloud",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "firezone/firezone",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "jakejarvis/awesome-shodan-queries",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "duo-labs/cloudmapper",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "cloud-custodian/cloud-custodian",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Azure/Azure-Sentinel",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "cloud-hypervisor/cloud-hypervisor",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "jassics/security-study-plan",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "unikraft/unikraft",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "A-poc/BlueTeam-Tools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "outflanknl/RedELK",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "punk-security/dnsReaper",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Bashfuscator/Bashfuscator",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "abc123info/BlueTeamTools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "wikiZ/RedGuard",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "SecurityRiskAdvisors/VECTR",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "TryCatchHCF/DumpsterFire",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "FalconForceTeam/FalconHound",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "ChinaRan0/BlueTeamTools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "cyberblu3s/CyberBlue",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "langchain-ai/langchain",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "FoundationAgents/MetaGPT",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "microsoft/autogen",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "crewAIInc/crewAI",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "QuivrHQ/quivr",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "langchain-ai/langgraph",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "go-kratos/kratos",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "deepset-ai/haystack",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "zai-org/Open-AutoGLM",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "mastra-ai/mastra",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "jina-ai/serve",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "browserbase/stagehand",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "openai/openai-agents-python",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "humanlayer/12-factor-agents",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "wasp-lang/wasp",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "elizaOS/eliza",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "emcie-co/parlant",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "TransformerOptimus/SuperAGI",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "NVIDIA-NeMo/NeMo",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "camel-ai/camel",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "agent0ai/agent-zero",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "aio-libs/aiohttp",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "raga-ai-hub/RagaAI-Catalyst",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "pydantic/pydantic-ai",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "iii-hq/iii",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "wasp-lang/open-saas",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Tencent/WeKnora",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "dream-num/univer",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "A-poc/RedTeam-Tools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "zan8in/afrog",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "mgeeky/Penetration-Testing-Tools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "i-am-shodan/USBArmyKnife",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "yadox666/The-Hackers-Hardware-Toolkit",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Jieyab89/OSINT-Cheat-sheet",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Azure/Stormspotter",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "lengjibo/RedTeamTools",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "nccgroup/redsnarf",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "threatexpress/red-team-scripts",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "shr3ddersec/Shr3dKit",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "mgeeky/ProtectMyTooling",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "tcostam/awesome-command-control",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "Aetsu/OffensivePipeline",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "stivenhacker/GhostStrike",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "efchatz/pandora",
+      "added": "2026-03-29"
+    },
+    {
+      "repo": "PaulNorman01/Forensia",
+      "added": "2026-03-29"
     }
   ]
 }
