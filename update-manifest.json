@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-03-29T08:23:21.760Z",
+  "lastRun": "2026-04-05T08:22:47.205Z",
   "discoveredRepos": [
     {
       "repo": "DependencyTrack/dependency-track",
@@ -920,6 +920,386 @@
     {
       "repo": "PaulNorman01/Forensia",
       "added": "2026-03-29"
+    },
+    {
+      "repo": "shadow1ng/fscan",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "google/tsunami-security-scanner",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "NVIDIA/garak",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "presidentbeef/brakeman",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "OWASP/Nettacker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "andresriancho/w3af",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mitchellkrogza/nginx-ultimate-bad-bot-blocker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "greenbone/openvas-scanner",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "cloudflare/flan",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Tuhinshubhra/RED_HAWK",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Tencent/AI-Infra-Guard",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "almandin/fuxploider",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Qianlitp/crawlergo",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "lijiejie/BBScan",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "s0md3v/Striker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "skavngr/rapidscan",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "msoedov/agentic_security",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "1N3/BlackWidow",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Moham3dRiahi/XAttacker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "wapiti-scanner/wapiti",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "KeenSecurityLab/BinAbsInspector",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "praetorian-inc/noseyparker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "techjacker/repo-security-scanner",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mongodb/kingfisher",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "betterleaks/betterleaks",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "newrelic/rusty-hog",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "x64dbg/x64dbg",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "The-Art-of-Hacking/h4cker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "iBotPeaches/Apktool",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "radareorg/radare2",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "rizinorg/cutter",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Konloch/bytecode-viewer",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "OWASP/mastg",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "pwndbg/pwndbg",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "wtsxDev/reverse-engineering",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mandiant/flare-vm",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mrexodia/ida-pro-mcp",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "albertan017/LLM4Decompile",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "sigalor/whatsapp-web-reveng",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "androguard/androguard",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "0xZ0F/Z0FCourse_ReverseEngineering",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "CreditTone/hooker",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "alphaSeclab/awesome-reverse-engineering",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Integuru-AI/Integuru",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "iosre/iOSAppReverseEngineering",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "JonathanSalwan/Triton",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "vaibhavpandeyvpz/apkstudio",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "cea-sec/miasm",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "APKLab/APKLab",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "ax/apk.sh",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "dekuNukem/Nintendo_Switch_Reverse_Engineering",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "rizinorg/rizin",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "JusticeRage/Gepetto",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "threat9/routersploit",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "malwaredllc/byob",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "AzeemIdrisi/PhoneSploit-Pro",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "RhinoSecurityLabs/pacu",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "EntySec/Ghost",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "D3Ext/WEF",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "bats3c/shad0w",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "nettitude/PoshC2",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "p0dalirius/Awesome-RCE-techniques",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "samugit83/redamon",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "epsylon/xsser",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "c0ny1/FastjsonExploit",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "m4n3dw0lf/pythem",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "wh1t3p1g/ysomap",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "DeimosC2/DeimosC2",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "dareid/chakram",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mosecorg/mosec",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "niemand-sec/AntiCheat-Testing-Framework",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "bahaabdelwahed/killshot",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Shredded-Pork/TempFlow-GRPO",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "Significant-Gravitas/AutoGPT",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "bytedance/deer-flow",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "oobabooga/text-generation-webui",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "ComposioHQ/composio",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "yamadashy/repomix",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "huggingface/datasets",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "WEIFENG2333/VideoCaptioner",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "ConardLi/easy-dataset",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "googleapis/genai-toolbox",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "ShishirPatil/gorilla",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "tadata-org/fastapi_mcp",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "e2b-dev/E2B",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "langchain4j/langchain4j",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "KalyanKS-NLP/llm-engineer-toolkit",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "krillinai/KrillinAI",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "sigoden/aichat",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "kyrolabs/awesome-langchain",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "apache/seatunnel",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "mark3labs/mcp-go",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "CoplayDev/unity-mcp",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "0x4m4/hexstrike-ai",
+      "added": "2026-04-05"
+    },
+    {
+      "repo": "iflytek/astron-rpa",
+      "added": "2026-04-05"
     }
   ]
 }
